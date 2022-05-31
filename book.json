@@ -1,0 +1,26 @@
+{
+	"plugins": [
+		"expandable-chapters",
+		"page-treeview",
+		"anchor-navigation-ex"
+	],
+	"pluginsConfig": {
+		"anchor-navigation-ex": {
+			"showLevel": false,
+			"associatedWithSummary": true,
+			"isRewritePageTitle": false,
+			"float": {
+				"showLevelIcon": false,
+				"level1Icon": "fa fa-hand-o-right",
+				"level2Icon": "fa fa-hand-o-right",
+				"level3Icon": "fa fa-hand-o-right"
+			},
+			"pageTop": {
+				"showLevelIcon": false,
+				"level1Icon": "fa fa-hand-o-right",
+				"level2Icon": "fa fa-hand-o-right",
+				"level3Icon": "fa fa-hand-o-right"
+			}
+		}
+	}
+}
