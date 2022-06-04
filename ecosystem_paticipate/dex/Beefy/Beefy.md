@@ -15,7 +15,11 @@ Beefy提供金库、Lanuchpool、模块化智能合约的金库策略。
 
 打开操作界面 [https://app.beefy.com/](https://app.beefy.com/) 选择最右侧的 Oasis链,可以看到下方的5个金库。
 
-**PS:2022/05/26 新增USDC/USDT LP 稳定币流动对**
+更新:
+
+- 2022/05/26 新增USDC-USDT LP 稳定币流动对
+
+- 2022/06/04 新增ValleySwap的4个流动对。VS-USDT、ETH-USDT、BTC-USDT、USDC-USDT
 
 ![](beefy_1.jpg)
 
@@ -85,4 +89,4 @@ BIFI合约地址：[多链地址](https://docs.beefy.finance/v/cn/ecosystem/bifi
 [Telegram](https://t.me/beefyfinance)
 [Discord](https://discord.com/invite/yq8wfHd)
 
-作者：moi 2022/05/16 更新 moi 2022/05/26
+作者：moi 2022/05/16 更新 moi 2022/06/04
