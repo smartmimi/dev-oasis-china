@@ -90,4 +90,4 @@ BIFI合约地址：[多链地址](https://docs.beefy.finance/v/cn/ecosystem/bifi
 
 作者：moi 2022/05/16 
 
-更新 moi 2022/06/04 -新增金库
+更新 moi 2022/06/04 -新增VallySwap金库
