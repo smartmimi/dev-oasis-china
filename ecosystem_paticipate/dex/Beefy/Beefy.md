@@ -17,9 +17,8 @@ Beefy提供金库、Lanuchpool、模块化智能合约的金库策略。
 
 更新:
 
-- 2022/05/26 新增USDC-USDT LP 稳定币流动对
-
 - 2022/06/04 新增ValleySwap的4个流动对。VS-USDT、ETH-USDT、BTC-USDT、USDC-USDT
+- 2022/05/26 新增USDC-USDT LP 稳定币流动对
 
 ![](beefy_1.jpg)
 
