@@ -33,7 +33,7 @@ Symbol: ROSE
 #### 3.通过EVODefi跨链桥转入资产
 EVODefi连接Metamask钱包,From选择Ethereum,To选择Oasis,Token选择USDT,然后按照步骤往下即可,确保以太坊账户中有足够的ETH支付Gas费用
 
-可参考教程[EVODeFi简介及教程](ecosystem_paticipate/bridge/EVODeFi/EVODeFi简介及教程.md)
+可参考教程[EVODeFi简介及教程](dev-oasis-china/ecosystem_paticipate/bridge/EVODeFi/EVODeFi简介及教程.md)
 
 
 
