@@ -4,6 +4,10 @@
 
 ## 2022
 
+- 2022/06/02 [Oasis Bloom黑客松获奖名单出炉](https://medium.com/@OasisNetworkCN/%E7%BE%A4%E9%9B%84%E9%80%90%E9%B9%BF-7%E4%B8%AA%E9%A1%B9%E7%9B%AE%E8%84%B1%E9%A2%96%E8%80%8C%E5%87%BA-oasis-bloom%E9%BB%91%E5%AE%A2%E6%9D%BE%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95%E5%87%BA%E7%82%89-6703c8bc6c93) - 今年3月份，Oasis Bloom黑客松活动拉开帷幕，作为Oasis生态迄今为止最大规模的黑客松活动，开发者可以围绕DiFi、GameFi等主题基于Oasis Emerald ParaTime构建，赢取高达20万美元的奖金池。
+
+- 2022/05/30 [NFT艺术周拉开帷幕](https://medium.com/@OasisNetworkCN/nft%E8%89%BA%E6%9C%AF%E5%91%A8%E6%8B%89%E5%BC%80%E5%B8%B7%E5%B9%95-%E6%95%B0%E4%BD%8D%E8%89%BA%E6%9C%AF%E5%AE%B6nft%E4%BD%9C%E5%93%81%E4%B8%8A%E7%BA%BFoasis-e596838dc2e9) - Oasis首个NFT市场MetaMirror举行的NFT艺术周活动正式拉开帷幕，神秘艺术家将在艺术周的五天时间内，每天发布一个令人惊叹的Oasis NFT独家系列。
+
 - 2022/05/26 [MetaMirror 推出 MLaunch](https://twitter.com/OasisClub_CN/status/1529818644254887936) - 隐私计算网络Oasis首个NFT市场 作为生态NFT Launchpad，MLaunch具有无需代码铸造NFT、社区参与自动化以及将Web2粉丝引入Web3等功能，大大降低了NFT进入门槛，帮助更多艺术家以简单、高效的方式拥抱NFT，并为其NFT项目发展提供早期社区支持。
 
 - 2022/05/17 [Genetica和Oasis Labs，在旧金山宣布更进一步的合作关系并举行了独家仪式](https://medium.com/@OasisNetworkCN/%E8%8E%B7%E8%B6%8A%E5%8D%97%E6%80%BB%E7%90%86%E5%92%8C%E6%94%BF%E5%BA%9C%E6%94%AF%E6%8C%81-oasis-labs%E6%90%BA%E6%89%8Bgenetica%E6%9E%84%E5%BB%BA%E7%B2%BE%E5%87%86%E5%8C%BB%E7%96%97%E6%9C%8D%E5%8A%A1-dd9f9c6b7d17) - Genetica是亚太地区领先的基因科技公司，越南总理和其他部长及政府官员参与了本次仪式，并表示对越南发展成为Web3领域的全球领导者感到非常兴奋。
