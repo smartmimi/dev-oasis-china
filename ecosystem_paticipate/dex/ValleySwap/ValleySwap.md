@@ -36,6 +36,7 @@ EVODefi连接Metamask钱包,From选择Ethereum,To选择Oasis,Token选择USDT,然
 可参考教程[EVODeFi简介及教程](ecosystem_paticipate/bridge/EVODeFi/EVODeFi简介及教程.md)
 
 
+
 ![](valley1.jpg)
 
 
