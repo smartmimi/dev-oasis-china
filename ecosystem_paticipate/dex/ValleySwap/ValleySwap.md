@@ -39,7 +39,6 @@ EVODefi连接Metamask钱包,From选择Ethereum,To选择Oasis,Token选择USDT,然
 ![](valley1.jpg)
 
 
-
 ### 二、合成ROSE-USDT LP令牌
 
 #### 1.选择ROSE-USDT交易对授权
