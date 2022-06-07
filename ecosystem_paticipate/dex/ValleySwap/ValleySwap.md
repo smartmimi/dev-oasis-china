@@ -108,7 +108,7 @@ EVODefi连接Metamask钱包,From选择Ethereum,To选择Oasis,Token选择USDT,然
 矿币VS：0xBC033203796CC2C8C543a5aAe93a9a643320433D
 
 ### 七、相关社交链接
-[Telegram](https://t.me/valleyswap_chat))
+[Telegram](https://t.me/valleyswap_chat)
 
 [Twitter](https://twitter.com/ValleySwap)
 
