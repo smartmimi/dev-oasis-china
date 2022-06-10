@@ -19,6 +19,9 @@
 ### 生态参与
 
 - [生态参与概览](./ecosystem_paticipate/概览.md)
+- 节点搭建
+  - [节点搭建指导版](./ecosystem_paticipate/node/节点搭建指导版.md)
+  - [节点搭建中文版](./ecosystem_paticipate/node/节点搭建中文版.md)
 - [质押](./ecosystem_paticipate/质押.md)
 - DEX
   - [YuzuSwap介绍](./ecosystem_paticipate/dex/yuzuswap/YuzuSwap介绍.md)
