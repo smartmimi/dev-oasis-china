@@ -4,7 +4,7 @@
 
 ## 2022
 
-- 2022/06/13 [Oasis Labs 创始人 Dawn Song 参与consensus2022 2022共识大会并介绍Oasis](https://twitter.com/OasisNetwork_CN/status/1536022776443596801?s=20&t=4ju0vJgGNrH_NefMZ4gt6g) - 北京时间6月12日凌晨，@OasisLabs 创始人@dawnsongtweets在 @consensus2022 共识大会主会场介绍Oasis @OasisProtocol 如何向用户提供数据主权和隐私解决方案。
+- 2022/06/13 [Dawn Song参与consensus 2022共识大会并介绍Oasis](https://twitter.com/OasisNetwork_CN/status/1536022776443596801?s=20&t=4ju0vJgGNrH_NefMZ4gt6g) - 北京时间6月12日凌晨，OasisLabs创始Dawn Song在Consensus2022共识大会主会场介绍Oasis如何向用户提供数据主权和隐私解决方案。
 - 2022/06/02 [Oasis Bloom黑客松获奖名单出炉](https://medium.com/@OasisNetworkCN/%E7%BE%A4%E9%9B%84%E9%80%90%E9%B9%BF-7%E4%B8%AA%E9%A1%B9%E7%9B%AE%E8%84%B1%E9%A2%96%E8%80%8C%E5%87%BA-oasis-bloom%E9%BB%91%E5%AE%A2%E6%9D%BE%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95%E5%87%BA%E7%82%89-6703c8bc6c93) - 今年3月份，Oasis Bloom黑客松活动拉开帷幕，作为Oasis生态迄今为止最大规模的黑客松活动，开发者可以围绕DiFi、GameFi等主题基于Oasis Emerald ParaTime构建，赢取高达20万美元的奖金池。
 
 - 2022/05/30 [NFT艺术周拉开帷幕](https://medium.com/@OasisNetworkCN/nft%E8%89%BA%E6%9C%AF%E5%91%A8%E6%8B%89%E5%BC%80%E5%B8%B7%E5%B9%95-%E6%95%B0%E4%BD%8D%E8%89%BA%E6%9C%AF%E5%AE%B6nft%E4%BD%9C%E5%93%81%E4%B8%8A%E7%BA%BFoasis-e596838dc2e9) - Oasis首个NFT市场MetaMirror举行的NFT艺术周活动正式拉开帷幕，神秘艺术家将在艺术周的五天时间内，每天发布一个令人惊叹的Oasis NFT独家系列。
