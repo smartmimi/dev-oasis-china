@@ -4,19 +4,14 @@
 
 ## 2022
 
+- 20220616 [Oasis 已上线开发人员支持计划](https://www.chaincatcher.com/article/2075376) - 该计划将允许开发人员探索 DeFi 和 NFT 解决方案的新领域，每个成功的提案都有资格获得高达 5 万美元的 ROSE 代币.
 - 2022/06/13 [Dawn Song参与consensus 2022共识大会并介绍Oasis](https://twitter.com/OasisNetwork_CN/status/1536022776443596801?s=20&t=4ju0vJgGNrH_NefMZ4gt6g) - 北京时间6月12日凌晨，OasisLabs创始Dawn Song在Consensus2022共识大会主会场介绍Oasis如何向用户提供数据主权和隐私解决方案。
 - 2022/06/02 [Oasis Bloom黑客松获奖名单出炉](https://medium.com/@OasisNetworkCN/%E7%BE%A4%E9%9B%84%E9%80%90%E9%B9%BF-7%E4%B8%AA%E9%A1%B9%E7%9B%AE%E8%84%B1%E9%A2%96%E8%80%8C%E5%87%BA-oasis-bloom%E9%BB%91%E5%AE%A2%E6%9D%BE%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95%E5%87%BA%E7%82%89-6703c8bc6c93) - 今年3月份，Oasis Bloom黑客松活动拉开帷幕，作为Oasis生态迄今为止最大规模的黑客松活动，开发者可以围绕DiFi、GameFi等主题基于Oasis Emerald ParaTime构建，赢取高达20万美元的奖金池。
-
 - 2022/05/30 [NFT艺术周拉开帷幕](https://medium.com/@OasisNetworkCN/nft%E8%89%BA%E6%9C%AF%E5%91%A8%E6%8B%89%E5%BC%80%E5%B8%B7%E5%B9%95-%E6%95%B0%E4%BD%8D%E8%89%BA%E6%9C%AF%E5%AE%B6nft%E4%BD%9C%E5%93%81%E4%B8%8A%E7%BA%BFoasis-e596838dc2e9) - Oasis首个NFT市场MetaMirror举行的NFT艺术周活动正式拉开帷幕，神秘艺术家将在艺术周的五天时间内，每天发布一个令人惊叹的Oasis NFT独家系列。
-
 - 2022/05/26 [MetaMirror 推出 MLaunch](https://twitter.com/OasisClub_CN/status/1529818644254887936) - 隐私计算网络Oasis首个NFT市场 作为生态NFT Launchpad，MLaunch具有无需代码铸造NFT、社区参与自动化以及将Web2粉丝引入Web3等功能，大大降低了NFT进入门槛，帮助更多艺术家以简单、高效的方式拥抱NFT，并为其NFT项目发展提供早期社区支持。
-
 - 2022/05/17 [Genetica和Oasis Labs，在旧金山宣布更进一步的合作关系并举行了独家仪式](https://medium.com/@OasisNetworkCN/%E8%8E%B7%E8%B6%8A%E5%8D%97%E6%80%BB%E7%90%86%E5%92%8C%E6%94%BF%E5%BA%9C%E6%94%AF%E6%8C%81-oasis-labs%E6%90%BA%E6%89%8Bgenetica%E6%9E%84%E5%BB%BA%E7%B2%BE%E5%87%86%E5%8C%BB%E7%96%97%E6%9C%8D%E5%8A%A1-dd9f9c6b7d17) - Genetica是亚太地区领先的基因科技公司，越南总理和其他部长及政府官员参与了本次仪式，并表示对越南发展成为Web3领域的全球领导者感到非常兴奋。
-
 - 2022/05/17 [绿洲生态系统基金达到 2.35 亿美元](https://twitter.com/OasisProtocol/status/1526548398148550664?s=20&t=P3ONCAvklWzTrg1T4j2NYw) - Oasis 生态系统基金继续快速扩张，包括 Newman Capital、Seven X Ventures 等各种新投资者追加 3500 万美元
-
 - 2022/05/14 [拥有3.77亿美元TVL的DeFi项目 Beefy 正式加入OasisNetwork](https://twitter.com/beefyfinance/status/1525286820149440513) - Beefy是一个多链收益优化器，专注于安全性并自动组合加密资产以获得最佳APY。
-
 - 2022/05/07 [XDAO携手Oasis | 推出首个多签钱包，降低用户风险](https://medium.com/@OasisNetworkCN/xdao%E6%90%BA%E6%89%8Boasis-%E6%8E%A8%E5%87%BA%E9%A6%96%E4%B8%AA%E5%A4%9A%E7%AD%BE%E9%92%B1%E5%8C%85-%E9%99%8D%E4%BD%8E%E7%94%A8%E6%88%B7%E9%A3%8E%E9%99%A9-91bcbcc3b691) - XDAO在Oasis网络上推出了第一个多重签名（Multi-Sig）钱包！多重签名钱包可以降低用户的使用风险，这是许多区块链项目的关键安全功能。 
 
 - 2022/05/07 [与@EthGlobal合作参加了今年的 Hackmoney Hackathon](https://twitter.com/OasisNetwork_CN/status/1522867856479637504) - 提供 4,000 美元并支持在 Oasis 网络上为一位幸运的获胜者构建 dApp！
