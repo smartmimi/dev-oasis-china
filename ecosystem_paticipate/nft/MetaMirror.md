@@ -16,7 +16,7 @@ MetaMirror为Oasis Emerald上首个NFT市场。2021年12月15日，宣布推出A
 
 三、右上角钱包处的 Profile 可查看已持有的 NFT 相关内容
 
-原交易界面的列表和报价功能已停用，将在两周内弃用，详细内容请查阅新版 (https://gallery.metamirror.space/)。
+原交易界面的列表和报价功能已停用，将在两周内弃用，详细内容请查阅新版 https://gallery.metamirror.space/
 
 
 ## 二、NFT交易
