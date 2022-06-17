@@ -6,6 +6,18 @@ MetaMirror为Oasis Emerald上首个NFT市场。2021年12月15日，宣布推出A
 
 作为生态NFT市场，MetaMirror此前已经推出MetaMirror Gallery交易平台和Web 3.0+ 去中心化身份服务MBuddy。结合MLaunch功能，MetaMirror将筑牢Web2与Web3沟通桥梁，进一步拓展社区规模及影响力，成长为Oasis生态第一个成熟的NFT市场。
 
+2022/06/17 MetaMirror v2已正式上线
+
+一、首页顶部菜单新增 Explore。包含
+- Collection：分类显示所有NFT
+- Rankings：显示NFT的流行排名。
+
+二、新增 Apply 菜单中包含 MLaunch 相关内容
+
+三、右上角钱包处的 Profile 可查看已持有的 NFT 相关内容
+
+原交易界面的列表和报价功能已停用，将在两周内弃用，详细内容请查阅新版 (https://gallery.metamirror.space/)。
+
 
 ## 二、NFT交易
 
