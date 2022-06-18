@@ -4,6 +4,8 @@ Celer将cBridge集成至Emerald ParaTime，以实现更好的区块链互操作�
 
 Oasis网络上cBridge桥接代币的代币地址如下（在Emerald链上添加如下对应代币合约）：
 
+代币地址详见CBridge官方文档 ：https://cbridge-analytics.celer.network/assets
+
 
 ```
 （以太坊）
