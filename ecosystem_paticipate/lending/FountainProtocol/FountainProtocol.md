@@ -48,7 +48,7 @@
 
 ![](ftp2.jpg)
 
-   > Deposit APR:基本资产存入后转换为fToken，作为抵押品单位，fToken与基本资产汇率会随着时间推移增加。当赎回基本资产时，会产生增值收益
+   > Deposit APY:基本资产存入后转换为fToken，作为抵押品单位，fToken与基本资产汇率会随着时间推移增加。当赎回基本资产时，会产生增值收益
 
    > Distribution APR:存入资产产生的FTP代币收益。
 
