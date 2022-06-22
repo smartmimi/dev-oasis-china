@@ -1,11 +1,13 @@
 # Summary
 
 - [简介](README.md)
-  - [更新日志](./更新日志.md)
-  - [代币分配](./general/coin/coin.md)
+
 ------
 
-
+### 通用
+  - [更新日志](./更新日志.md)
+  - [代币分配](./general/coin/coin.md)
+  - [质押](./general/质押.md)
 
 ### 技术支持
 
@@ -23,7 +25,7 @@
 - 节点搭建
   - [节点搭建指导版](./ecosystem_paticipate/node/节点搭建指导版.md)
   - [节点搭建中文版](./ecosystem_paticipate/node/节点搭建中文版.md)
-- [质押](./ecosystem_paticipate/质押.md)
+
 - DEX
   - [YuzuSwap介绍](./ecosystem_paticipate/dex/yuzuswap/YuzuSwap介绍.md)
     - [YuzuSwap挖矿教程](https://medium.com/@little-white/yuzu-%E6%8C%96%E7%9F%BF%E6%94%BB%E7%95%A5-f192ff18b9a1)

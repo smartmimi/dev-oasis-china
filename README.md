@@ -18,6 +18,7 @@
 
 ### 模块划分
 
+- [通用](./general/通用.md) - Oasis链上基础知识
 - [技术支持](./dev_support/概览.md) - 协助社区解决Oasis生态参与中所遇到的难点、痛点、问题点，提供解决方案；
 - [生态参与](./ecosystem_paticipate/概览.md) - 协助社区及时了解跟踪Oasis相关生态，提供相关生态资讯、分析及攻略教程等；
 - [Oasis资讯](./oasis_info/概览.md) - 收录Oasis相关资讯、Oasis中国官方相关活动等；
