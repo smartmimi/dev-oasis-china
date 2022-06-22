@@ -1,7 +1,8 @@
 # Summary
 
 - [简介](README.md)
-- [更新日志](./更新日志.md)
+  - [更新日志](./更新日志.md)
+  - [代币分配](./general/coin/coin.md)
 ------
 
 
