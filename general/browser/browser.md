@@ -1,8 +1,9 @@
 # 区块链浏览器
 
 ## 一、区块链浏览器链接
-Oasis区块链浏览器：https://www.oasisscan.com/
-Emerald 链上浏览器：https://explorer.emerald.oasis.dev/
+Oasis区块链浏览器：[https://www.oasisscan.com/](https://www.oasisscan.com/)
+
+Emerald 链上浏览器：[https://explorer.emerald.oasis.dev/](https://explorer.emerald.oasis.dev/)
 
 ## 二、区块链浏览器能做什么？
 
@@ -15,12 +16,14 @@ Emerald 链上浏览器：https://explorer.emerald.oasis.dev/
 这这涉及到公共信息的三个部分：交易，区块，地址。也就是下图中3个区域
 
 而中间夹着的就是最常用的基本信息：
-- Block Height:当前的区块高度
-- Total Escrow:总托管量
-- Current Epoch:当前纪元
-- Active Validator:当前活跃验证者
-- Total Transactions：总交易量
-- Total Delegators：委托人总数
+|||
+|---|---|
+|Block Height|当前的区块高度|
+|Total Escrow|总托管量|
+|Current Epoch|当前纪元|
+|Active Validator|当前活跃验证者|
+|Total Transactions|总交易量|
+|Total Delegators|委托人总数|
 
 ![](./browser_1.png)
  
@@ -29,26 +32,30 @@ Emerald 链上浏览器：https://explorer.emerald.oasis.dev/
 任意选择一个最新的交易点进去，大多数数据都是一目了然的。
 
 就像一个快递的整个生命周期：
-
-- 快递单号是多少（Transaction Hash）
-- 投递是否成功（Status）
-- 对方什么时候收到（Timestamp）
-- 从哪儿来from，到哪儿去to
-- 被哪个快递员打包（Block）
-- 信封内有什么（Amount)
-- 邮费是多少（Transaction Fee）
-- 邮递方式（Type）
+|||
+|---|---|
+|快递单号是多少|ransaction Hash|
+|投递是否成功|Status|
+|对方什么时候收到|Timestamp|
+|从哪儿来|from|
+|到哪儿去|to|
+|被哪个快递员打包|Block|
+|信封内有什么|Amount|
+|邮费是多少|Transaction Fee|
+|邮递方式|Type|
 
  ![](./browser_2.png)
 
 ## 五、块详情信息
 块的信息，相对复杂其实对状态分析意义不大。以下仅列出常用的几种操作
-- staking.Allow 允许使帐户持有人成为受益人
-- staking.Withdraw 受益人能够从给定的帐户中提取收益
-- staking.AddEscrow 添加质押
-- staking.ReclaimEscrow 提取质押
-- staking.Transfer 转账
-- staking.Burn 燃烧
+|||
+|---|---|
+|staking.Allow|允许使帐户持有人成为受益人|
+|staking.Withdraw|受益人能够从给定的帐户中提取收益|
+|staking.AddEscrow|添加质押|
+|staking.ReclaimEscrow|提取质押|
+|staking.Transfer|转账|
+|staking.Burn|燃烧|
 
 ![](./browser_3.png)
  
