@@ -1,13 +1,10 @@
 # MetaMirror
 
-目录
-
 - [一、简介](#yi-jian-jie)
 - [二、首页介绍](#er-shou-ye-jie-shao)
 - [三、查看 NFT](#san-cha-kan-nft)
 - [四、交易 NFT](#si-jiao-yi-nft)
 - [五、Mlaunch](#wu-mlaunch)
-
 
 ## 一、简介
 
@@ -16,7 +13,6 @@ MetaMirror为Oasis Emerald上首个NFT市场。2021年12月15日，宣布推出A
 作为生态NFT市场，MetaMirror此前已经推出MetaMirror Gallery交易平台和Web 3.0+ 去中心化身份服务MBuddy。结合MLaunch功能，MetaMirror将筑牢Web2与Web3沟通桥梁，进一步拓展社区规模及影响力，成长为Oasis生态第一个成熟的NFT市场。
 
 2022/06/17 MetaMirror v2已正式上线 [gallery.metamirror.space](https://gallery.metamirror.space/)
-
 
 ## 二、首页介绍
 
@@ -38,7 +34,7 @@ MetaMirror为Oasis Emerald上首个NFT市场。2021年12月15日，宣布推出A
 
 - Profile 进入个人收藏界面
 
-如下图，可以看到个人的 NFT 状态、挂单、报价等活动。
+如下图，Profile 界面可以看到个人的 NFT 状态、挂单、报价等活动。
 
 ![](MetaMirror_2.jpg)
 
@@ -52,9 +48,7 @@ MetaMirror为Oasis Emerald上首个NFT市场。2021年12月15日，宣布推出A
 
 点击 NFT 集合进入（本文以 AI ROSE 为例）
 
-首先可以看到 NFT 的基本情况，如
-
-总发行数量、拥有者数量、地板价、成交量、制作者版税
+首先可以看到 NFT 的基本情况，如：“总发行数量、拥有者数量、地板价、成交量、制作者版税”
 
 ![](MetaMirror_4.jpg)
 
@@ -77,12 +71,14 @@ MetaMirror为Oasis Emerald上首个NFT市场。2021年12月15日，宣布推出A
 点击 **PARITY** 可以查看 NFT 的稀有度、评分等其他属性。
 
 ### 快速购买
-鼠标指向 NFT 时，会出现 **buy** 按钮。点击此按钮可以进入快速交易模式。可以直接完成 NFT 的购买
+
+如上图，鼠标指向 NFT 时，会出现 **buy** 按钮。点击此按钮可以进入快速交易模式（如下图）。可以直接完成 NFT 的购买
 
 ![](MetaMirror_8.jpg)
 
 ### 正式购买
-点击其他区域，进入 NFT 正式交易界面
+
+点击 NFT（避开快速交易 buy 按钮），进入 NFT 正式交易界面
 
 ![](MetaMirror_9.jpg)
 
@@ -93,10 +89,11 @@ MetaMirror为Oasis Emerald上首个NFT市场。2021年12月15日，宣布推出A
 在右上角 Profile 中，可以查看当前拥有的 NFT 状态，以及购买意向、拍卖等。（图片见第二节）
 
 在此点开拥有的 NFT 可以
-- Send 转移 NFT （直接转移到另一个地址，此处不再演示）
-- Sell 销售 NFT
+- Send：转移 NFT （直接转移到另一个地址，此处不再演示）
+- Sell：销售 NFT
 
-进入 **Sell** 界面，可以直接挂单销售，也可以采用拍卖模式
+进入 **Sell** 界面，可以直接挂单销售，也可以采用拍卖模式。
+
 挂单模式：填写价格、过期时间。（成交时，平台收取2.5%的税）
 
 ![](MetaMirror_10.jpg)
