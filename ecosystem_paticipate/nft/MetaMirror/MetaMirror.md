@@ -7,7 +7,6 @@
 * [三、NFT 交易](#san-nft-jiao-yi)
 * [四、Mlaunch](#si-mlaunch)
 
-<div id="1"></div>
 
 ## 一、简介
 
@@ -44,13 +43,40 @@ MetaMirror为Oasis Emerald上首个NFT市场。2021年12月15日，宣布推出A
 
 2.6、Settings 设置界面。可以设置用户的昵称、电子邮件等，以及关于交易的及时提醒设置（通过邮件发送）。
 
-<div id="3"></div>
 
 ## 三、NFT 交易
 
-参考教程 [MetaMirror交易教程](https://medium.com/@little-white/%E5%A6%82%E4%BD%95%E4%BA%A4%E6%98%93ai-rose-nft-12b7a58c10d3)
+### 3.1、查看 NFT
+打开 Explore - Collections 菜单。
 
-<div id="4"></div>
+左侧可以筛选 NFT 的分类，“前沿”“艺术”等，右侧可以根据“热度”“最近”来进行排序。
+
+![](MetaMirror_3.jpg)
+
+点击 NFT 集合进入（本文以 AI ROSE 为例）
+
+首先可以看到 NFT 的基本情况，如
+- 总发行数量
+- 拥有者数量
+- 地板价
+- 成交量
+- 制作者版税
+
+![](MetaMirror_4.jpg)
+
+下方分为两个标签页，
+
+**Items** 展示本集合中的所有 NFT，同样可以进行筛选。
+- Newest：ID、稀有度、价格、历史最高交易价、历史最高报价等。
+- Status：可直接交易、拍卖中、报价中
+
+![](MetaMirror_5.jpg)
+
+**Activity** 标签页展示最近的交易记录
+
+![](MetaMirror_6.jpg)
+
+### 3.2、交易
 
 ## 四、MLaunch
 
