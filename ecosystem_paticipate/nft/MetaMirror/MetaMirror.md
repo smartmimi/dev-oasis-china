@@ -1,5 +1,12 @@
 # MetaMirror
 
+目录
+
+* [一、简介](#一简介)
+* [二、首页介绍](#二首页介绍)
+* [三、NFT 交易](#三nft-交易)
+* [四、Mlaunch](#四mlaunch)
+
 ## 一、简介
 
 MetaMirror为Oasis Emerald上首个NFT市场。2021年12月15日，宣布推出AI ROSE系列NFT。作为基于Oasis网络构建的第一个NFT系列，AI ROSE NFT由999张AI生成的玫瑰图像组成。后续已上架10几种NFT。
@@ -8,38 +15,38 @@ MetaMirror为Oasis Emerald上首个NFT市场。2021年12月15日，宣布推出A
 
 2022/06/17 MetaMirror v2已正式上线 [gallery.metamirror.space](https://gallery.metamirror.space/)
 
-## 一、首页介绍
+## 二、首页介绍
 
 打开  [gallery.metamirror.space](https://gallery.metamirror.space/)，点击右上角链接钱包。Emerald 钱包相关的内容请参照[Oasis与Emerald之间的ROSE划转](/dev_support/Oasis与Emerald之间的ROSE划转/Oasis与Emerald之间的ROSE划转.md)
 
 ![](MetaMirror_1.jpg)
 
-1、 Explore 显示NFT相关
+2.1、 Explore 显示NFT相关
 - Collection：分类显示所有NFT
 - Rankings：显示NFT的流行排名
 
-2、Resources 显示官方的资源列表。如媒体、帮助中心、教程、旧版界面(V1，已废弃)
+2.2、Resources 显示官方的资源列表。如媒体、帮助中心、教程、旧版界面(V1，已废弃)
 
-3、frontier 前沿。MetaMirror 画廊的前沿，支持创新和最前沿的区块链技术。当前显示的是 Emerald 上第一个利用 Parcel 技术的加密 NFT “Army of Minions”
+2.3、frontier 前沿。MetaMirror 画廊的前沿，支持创新和最前沿的区块链技术。当前显示的是 Emerald 上第一个利用 Parcel 技术的加密 NFT “Army of Minions”
 
-4、Apply 申请。用户可以自行制作 NFT 并申请发布
+2.4、Apply 申请。用户可以自行制作 NFT 并申请发布
 
 在右上角钱包出点击，可以看到3个按钮
 
-1、Profile 进入个人收藏界面
+2.5、Profile 进入个人收藏界面
 
 如下图，可以看到个人的 NFT 状态、挂单、报价等活动。
 
 ![](MetaMirror_2.jpg)
 
-2、Settings 设置界面。可以设置用户的昵称、电子邮件等，以及关于交易的及时提醒设置（通过邮件发送）。
+2.6、Settings 设置界面。可以设置用户的昵称、电子邮件等，以及关于交易的及时提醒设置（通过邮件发送）。
 
-## 二、NFT交易
+## 三、NFT 交易
 
 参考教程 [MetaMirror交易教程](https://medium.com/@little-white/%E5%A6%82%E4%BD%95%E4%BA%A4%E6%98%93ai-rose-nft-12b7a58c10d3)
 
 
-## 三、MLaunch
+## 四、MLaunch
 
 登陆 [https://gallery.metamirror.space/mlaunch/](https://gallery.metamirror.space/mlaunch/) 点击右上角Apply进入[mlaunchform](https://gallery.metamirror.space/mlaunchform/)。依据页面指引一步步操作并提交。
 
