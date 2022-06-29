@@ -8,7 +8,8 @@
 
 ## 一、Oasis主网与Emerald互转
 
-此操作在Chrome插件钱包内，具体使用方式可参照[Oasis与Emerald之间的ROSE划转](dev-oasis-china/dev_support/Oasis与Emerald之间的ROSE划转/Oasis与Emerald之间的ROSE划转.md)。
+此操作在Chrome插件钱包内，具体使用方式可参照[Oasis与Emerald之间的ROSE划转](../Oasis与Emerald之间的ROSE划转/Oasis与Emerald之间的ROSE划转.md)。
+
 
 在下图中，手动填入**Fee Amount**及**Fee Gas**，建议150000000/15000。
 
