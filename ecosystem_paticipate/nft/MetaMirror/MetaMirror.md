@@ -4,10 +4,9 @@
 
 - [一、简介](#yi-jian-jie)
 - [二、首页介绍](#er-shou-ye-jie-shao)
-- [三、NFT 交易](#san-nft-jiao-yi)
-    - [3.1、查看 NFT](#3.1-cha-kan-nft)
-    - [3.2、交易](#3.2-jiao-yi)
-- [四、Mlaunch](#si-mlaunch)
+- [三、查看 NFT](#san-cha-kan-nft)
+- [四、交易 NFT](#si-jiao-yi-nft)
+- [五、Mlaunch](#wu-mlaunch)
 
 
 ## 一、简介
@@ -21,35 +20,30 @@ MetaMirror为Oasis Emerald上首个NFT市场。2021年12月15日，宣布推出A
 
 ## 二、首页介绍
 
-打开  [gallery.metamirror.space](https://gallery.metamirror.space/)，点击右上角链接钱包。Emerald 钱包相关的内容请参照[Oasis与Emerald之间的ROSE划转](/dev_support/Oasis与Emerald之间的ROSE划转/Oasis与Emerald之间的ROSE划转.md)
+打开  [gallery.metamirror.space](https://gallery.metamirror.space/)，点击右上角链接钱包。
+> Emerald 钱包相关的内容请参照[Oasis与Emerald之间的ROSE划转](/dev_support/Oasis与Emerald之间的ROSE划转/Oasis与Emerald之间的ROSE划转.md)
 
 ![](MetaMirror_1.jpg)
 
-2.1、 Explore 显示NFT相关
-- Collection：分类显示所有NFT
-- Rankings：显示NFT的流行排名
-
-2.2、Resources 显示官方的资源列表。如媒体、帮助中心、教程、旧版界面(V1，已废弃)
-
-2.3、frontier 前沿。MetaMirror 画廊的前沿，支持创新和最前沿的区块链技术。当前显示的是 Emerald 上第一个利用 Parcel 技术的加密 NFT “Army of Minions”
-
-2.4、Apply 申请。用户可以自行制作 NFT 并申请发布
+- Explore 显示NFT相关
+    - Collection：分类显示所有NFT
+    - Rankings：显示NFT的流行排名
+- Resources 显示官方的资源列表。如媒体、帮助中心、教程、旧版界面(V1，已废弃)
+- frontier 前沿。MetaMirror 画廊的前沿，支持创新和最前沿的区块链技术。当前显示的是 Emerald 上第一个利用 Parcel 技术的加密 NFT “Army of Minions”
+- Apply 申请。用户可以自行制作 NFT 并申请发布
 
 **右上角钱包**处点击，可以看到3个按钮
 
-2.5、Settings 设置界面。可以设置用户的昵称、电子邮件等，以及关于交易的及时提醒设置（通过邮件发送）。
+- Settings 设置界面。可以设置用户的昵称、电子邮件等，以及关于交易的及时提醒设置（通过邮件发送）。
 
-2.6、Profile 进入个人收藏界面
+- Profile 进入个人收藏界面
 
 如下图，可以看到个人的 NFT 状态、挂单、报价等活动。
 
 ![](MetaMirror_2.jpg)
 
+## 三、查看 NFT
 
-
-## 三、NFT 交易
-
-### 3.1、查看 NFT
 打开 Explore - Collections 菜单。
 
 左侧可以筛选 NFT 的分类，“前沿”“艺术”等，右侧可以根据“交易量”“最近”来进行排序。
@@ -76,11 +70,42 @@ MetaMirror为Oasis Emerald上首个NFT市场。2021年12月15日，宣布推出A
 
 ![](MetaMirror_6.jpg)
 
-### 3.2、交易
+## 四、交易 NFT
 
-施工中
+![](MetaMirror_7.jpg)
 
-## 四、MLaunch
+点击 **PARITY** 可以查看 NFT 的稀有度、评分等其他属性。
+
+### 快速购买
+鼠标指向 NFT 时，会出现 **buy** 按钮。点击此按钮可以进入快速交易模式。可以直接完成 NFT 的购买
+
+![](MetaMirror_8.jpg)
+
+### 正式购买
+点击其他区域，进入 NFT 正式交易界面
+
+![](MetaMirror_9.jpg)
+
+如上图，除了可以直接购买 **Buy now**,还可以主动提供报价 **Make offer**.当拥有者同意时即可完成交易。
+
+### 出售
+
+在右上角 Profile 中，可以查看当前拥有的 NFT 状态，以及购买意向、拍卖等。（图片见第二节）
+
+在此点开拥有的 NFT 可以
+- Send 转移 NFT （直接转移到另一个地址，此处不再演示）
+- Sell 销售 NFT
+
+进入 **Sell** 界面，可以直接挂单销售，也可以采用拍卖模式
+挂单模式：填写价格、过期时间。（成交时，平台收取2.5%的税）
+
+![](MetaMirror_10.jpg)
+
+拍卖模式：填写起拍价、过期时间、每次加价涨幅、一口价（可选），税同上。
+
+![](MetaMirror_11.jpg)
+
+## 五、MLaunch
 
 登陆 [https://gallery.metamirror.space/mlaunch/](https://gallery.metamirror.space/mlaunch/) 点击右上角Apply进入[mlaunchform](https://gallery.metamirror.space/mlaunchform/)。依据页面指引一步步操作并提交。
 
