@@ -122,3 +122,5 @@ MLaunch是建立在 MetaMirror 之上的新发射台（Launchpad），通过提�
 将Web2粉丝引入Web3
 
 MLaunch能够帮助艺术家的粉丝，完成从Web2到Web3的身份过渡转变，这使得艺术家可以通过MBuddy与他们粉丝的镜像身份进行互动。
+
+> 最后编辑：moi 2022/06/09 因MetaMirror发布V2版本，重构全文。
