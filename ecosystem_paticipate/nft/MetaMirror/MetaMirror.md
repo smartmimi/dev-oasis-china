@@ -2,10 +2,12 @@
 
 目录
 
-* [一、简介](#yi-jian-jie)
-* [二、首页介绍](#er-shou-ye-jie-shao)
-* [三、NFT 交易](#san-nft-jiao-yi)
-* [四、Mlaunch](#si-mlaunch)
+- [一、简介](#yi-jian-jie)
+- [二、首页介绍](#er-shou-ye-jie-shao)
+- [三、NFT 交易](#san-nft-jiao-yi)
+    - [3.1、查看 NFT](#3.1-cha-kan-nft)
+    - [3.2、交易](#3.2-jiao-yi)
+- [四、Mlaunch](#si-mlaunch)
 
 
 ## 一、简介
@@ -33,15 +35,16 @@ MetaMirror为Oasis Emerald上首个NFT市场。2021年12月15日，宣布推出A
 
 2.4、Apply 申请。用户可以自行制作 NFT 并申请发布
 
-在右上角钱包出点击，可以看到3个按钮
+**右上角钱包**处点击，可以看到3个按钮
 
-2.5、Profile 进入个人收藏界面
+2.5、Settings 设置界面。可以设置用户的昵称、电子邮件等，以及关于交易的及时提醒设置（通过邮件发送）。
+
+2.6、Profile 进入个人收藏界面
 
 如下图，可以看到个人的 NFT 状态、挂单、报价等活动。
 
 ![](MetaMirror_2.jpg)
 
-2.6、Settings 设置界面。可以设置用户的昵称、电子邮件等，以及关于交易的及时提醒设置（通过邮件发送）。
 
 
 ## 三、NFT 交易
@@ -49,22 +52,19 @@ MetaMirror为Oasis Emerald上首个NFT市场。2021年12月15日，宣布推出A
 ### 3.1、查看 NFT
 打开 Explore - Collections 菜单。
 
-左侧可以筛选 NFT 的分类，“前沿”“艺术”等，右侧可以根据“热度”“最近”来进行排序。
+左侧可以筛选 NFT 的分类，“前沿”“艺术”等，右侧可以根据“交易量”“最近”来进行排序。
 
 ![](MetaMirror_3.jpg)
 
 点击 NFT 集合进入（本文以 AI ROSE 为例）
 
 首先可以看到 NFT 的基本情况，如
-- 总发行数量
-- 拥有者数量
-- 地板价
-- 成交量
-- 制作者版税
+
+总发行数量、拥有者数量、地板价、成交量、制作者版税
 
 ![](MetaMirror_4.jpg)
 
-下方分为两个标签页，
+下方分为两个标签页：
 
 **Items** 展示本集合中的所有 NFT，同样可以进行筛选。
 - Newest：ID、稀有度、价格、历史最高交易价、历史最高报价等。
@@ -77,6 +77,8 @@ MetaMirror为Oasis Emerald上首个NFT市场。2021年12月15日，宣布推出A
 ![](MetaMirror_6.jpg)
 
 ### 3.2、交易
+
+施工中
 
 ## 四、MLaunch
 
