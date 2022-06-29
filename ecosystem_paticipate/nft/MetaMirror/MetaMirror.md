@@ -8,16 +8,31 @@ MetaMirror为Oasis Emerald上首个NFT市场。2021年12月15日，宣布推出A
 
 2022/06/17 MetaMirror v2已正式上线 [gallery.metamirror.space](https://gallery.metamirror.space/)
 
-一、首页顶部菜单新增 Explore。包含
+## 一、首页介绍
+
+打开  [gallery.metamirror.space](https://gallery.metamirror.space/)，点击右上角链接钱包。Emerald 钱包相关的内容请参照[Oasis与Emerald之间的ROSE划转](/dev_support/Oasis与Emerald之间的ROSE划转/Oasis与Emerald之间的ROSE划转.md)
+
+![](MetaMirror_1.jpg)
+
+1、 Explore 显示NFT相关
 - Collection：分类显示所有NFT
-- Rankings：显示NFT的流行排名。
+- Rankings：显示NFT的流行排名
 
-二、新增 Apply 菜单中包含 MLaunch 相关内容
+2、Resources 显示官方的资源列表。如媒体、帮助中心、教程、旧版界面(V1，已废弃)
 
-三、右上角钱包处的 Profile 可查看已持有的 NFT 相关内容
+3、frontier 前沿。MetaMirror 画廊的前沿，支持创新和最前沿的区块链技术。当前显示的是 Emerald 上第一个利用 Parcel 技术的加密 NFT “Army of Minions”
 
-原交易界面的列表和报价功能已停用，将在两周内弃用，详细内容请查阅新版 https://gallery.metamirror.space/
+4、Apply 申请。用户可以自行制作 NFT 并申请发布
 
+在右上角钱包出点击，可以看到3个按钮
+
+1、Profile 进入个人收藏界面
+
+如下图，可以看到个人的 NFT 状态、挂单、报价等活动。
+
+![](MetaMirror_2.jpg)
+
+2、Settings 设置界面。可以设置用户的昵称、电子邮件等，以及关于交易的及时提醒设置（通过邮件发送）。
 
 ## 二、NFT交易
 
