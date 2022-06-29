@@ -2,10 +2,10 @@
 
 目录
 
-* [一、简介](#1)
-* [二、首页介绍](#2)
-* [三、NFT 交易](#3)
-* [四、Mlaunch](#4)
+* [一、简介](#yi-jian-jie)
+* [二、首页介绍](#er-shou-ye-jie-shao)
+* [三、NFT 交易](#san-nft-jiao-yi)
+* [四、Mlaunch](#si-mlaunch)
 
 <div id="1"></div>
 
@@ -17,7 +17,6 @@ MetaMirror为Oasis Emerald上首个NFT市场。2021年12月15日，宣布推出A
 
 2022/06/17 MetaMirror v2已正式上线 [gallery.metamirror.space](https://gallery.metamirror.space/)
 
-<div id="2"></div>
 
 ## 二、首页介绍
 
