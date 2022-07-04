@@ -32,7 +32,6 @@
   - [YuzuSwap介绍](./ecosystem_paticipate/dex/yuzuswap/YuzuSwap介绍.md)
     - [YuzuSwap挖矿教程](https://medium.com/@little-white/yuzu-%E6%8C%96%E7%9F%BF%E6%94%BB%E7%95%A5-f192ff18b9a1)
     - [xYUZU介绍及注意事项](./ecosystem_paticipate/dex/yuzuswap/xYUZU介绍及注意事项.md)
-  - [ValleySwap介绍](./ecosystem_paticipate/dex/ValleySwap/ValleySwap.md)
   - [GemKeeper介绍](./ecosystem_paticipate/dex/GemKeeper/GemKeeper-Introduce.md)
     - [GemKeeper挖矿](./ecosystem_paticipate/dex/GemKeeper/gemkeeper-mining.md)
     - [xBLING介绍](./ecosystem_paticipate/dex/GemKeeper/xBLING/xBLING-Introduce.md)
@@ -44,7 +43,6 @@
   - [Wormhole简介及教程](ecosystem_paticipate/bridge/wormhole/Wormhole简介及教程.md)
   - [cBridge简介及教程](ecosystem_paticipate/bridge/cbridge/cBridge简介及教程.md)
   - [Multichain简介](ecosystem_paticipate/bridge/Multichain/Multichain简介.md)
-  - [EVODefi简介及教程](ecosystem_paticipate/bridge/EVODeFi/EVODeFi简介及教程.md)
 - 借贷
   - [喷泉协议-去中心化跨链借贷平台](ecosystem_paticipate/lending/FountainProtocol/FountainProtocol.md)
 
