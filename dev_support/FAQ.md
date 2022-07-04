@@ -1,10 +1,11 @@
 # 常见问题及解答
 
-1. 查看账户余额（当主网钱包不可用时，可用如下地址查询）
+### 1. 查看账户余额（当主网钱包不可用时，可用如下地址查询）
 
    - https://oasismonitor.com/accounts
 
-2、Emerald RPC
+### 2、RPC
+- Emerald
 
 ```
 主网名称：Emerald Mainnet
@@ -13,7 +14,7 @@ ID:42262
 代币：ROSE
 ```
 
-Emerald Testnet RPC
+- Emerald Testnet RPC
 
 ```
 主网名称：Emerald Testnet
@@ -22,11 +23,11 @@ ID:42261
 代币：ROSE
 ```
 
-3、水龙头（获得测试代币）
+### 3、水龙头（获得测试代币）
 
 https://faucet.testnet.oasis.dev/
 
-4、Emerald提币到交易所不到账解决方法（暂不支持直接从Emerald直接转到交易所）
+### 4、Emerald提币到交易所不到账解决方法（暂不支持直接从Emerald直接转到交易所）
 
 查询方法: https://www.oasisscan.com/accounts/detail/你的币安充值地址
 
