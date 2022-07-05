@@ -6,7 +6,7 @@
 - [更新日志](./更新日志.md)
 
 ### 通用
-  - [通用概览](./general/通用概览.md)
+    - [通用概览](./general/通用概览.md)
   - [Oasis 网络概览](./general/overview/overview.md)
   - [Oasis 网络参数](./general/network_parameters/network_parameters.md)
   - [初始文档](./general/genesis/genesis.md)
