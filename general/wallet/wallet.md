@@ -28,6 +28,10 @@ Oasis Network是于2020年11月19日上线的隐私公链。采用共识层与�
 |Bitpie等| |√| | |
 |MetaMask| | |√| |
 
+### 生态参与
+
+使用 MetaMask 参与 Emerald 上的生态项目。下载地址及 RPC 地址添加，请参照下条。
+
 ### 钱包地址
 
 - Oasis插件钱包（Chrome浏览器） - ROSE管理、质押、主网与Emerald互转ROSE
