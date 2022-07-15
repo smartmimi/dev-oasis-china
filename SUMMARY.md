@@ -23,7 +23,6 @@
 - [FAQ](./dev_support/FAQ.md)
 - [Gas设置](./dev_support/Gas设置/Gas设置.md)
 - [Oasis与Emerald之间的ROSE划转](./dev_support/Oasis与Emerald之间的ROSE划转/Oasis与Emerald之间的ROSE划转.md)
-- [Bitpie钱包转移到官方钱包](./dev_support/BitPie钱包转移到官方钱包.md)
 
 
 ### 生态参与
