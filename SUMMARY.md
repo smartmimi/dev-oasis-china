@@ -13,6 +13,7 @@
     - [为什么选择 Oasis](./general/whyoasis/whyoasis.md)
   - [代币分配](./general/coin/coin.md)
   - [质押](./general/质押.md)
+  - [钱包](./general/wallet/wallet.md)
   - [Oasis KYC教程](./general/oasis_kyc/oasis_kyc.md)
   - [区块链浏览器](./general/browser/browser.md)
 
