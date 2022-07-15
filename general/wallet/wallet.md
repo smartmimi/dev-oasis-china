@@ -65,7 +65,7 @@ https://wallet.oasisprotocol.org/
 ![](wallet_4.jpg)
 
 
-## 四、插件钱包，共识层与Emerald互转ROSE
+## 四、插件钱包，共识层与Emerald互转
 
 https://chrome.google.com/webstore/detail/oasis-wallet/ppdadbejkmjnefldpcdjhnkpbjkikoip?hl=zh-CN
 
@@ -75,7 +75,7 @@ https://chrome.google.com/webstore/detail/oasis-wallet/ppdadbejkmjnefldpcdjhnkpb
 
 ### 兼容钱包是什么？
 
-Emerald 为 EVM 架构，因此助记词、私钥、地址等，均与ETH、BSC 链相同。因此可以直接使用这两个链上的助记词、私钥、地址等信息。
+Emerald 为 EVM 架构，因此私钥、钱包地址等，均与ETH、BSC 链相同。因此可以直接使用这两个链上的私钥、钱包地址等信息。
 
 因为兼容钱包仅支持私钥导入，以下介绍 MetaMask 私钥的获取方式。
 
@@ -91,7 +91,7 @@ Emerald 为 EVM 架构，因此助记词、私钥、地址等，均与ETH、BSC 
 
 ## 五、质押
 
-详情请查阅 ![质押](/dev-oasis-china/general/质押.md)
+详情请查阅 [质押](/dev-oasis-china/general/质押.md)
 
 ## 六、bitpie 钱包转移到官方钱包
 
@@ -106,17 +106,16 @@ Bitpie钱包与官方钱包使用相同的BIP39算法,但未使用ARD-0008标准
 
 ### 转移方法
 
-从Bitpie钱包转移到官方钱包，可以选择以下两种做法:
-从Bitpie钱包内，导出私钥（收款-右上角-显示私钥），然后用私钥在官方钱包内打开
+以下方法二选一，推荐第二种：
 
-在官方钱包内创建新的钱包，在Bitpie钱包内将ROSE转移到新的官方钱包地址
+- 从Bitpie钱包内，导出私钥（收款-右上角-显示私钥），然后用私钥在官方钱包内打开
+
+- 在官方钱包内创建新的钱包，在Bitpie钱包内将ROSE转移到新的官方钱包地址
 
 ### 注意事项
 
 链上资产不会无故丢失，请不要惊慌。请务必保管好助记词/私钥，也需要知道不同的钱包/客户端使用的“助记词生成私钥”的算法会有所不同。
 
 Bitpie钱包可以导出私钥，然后导入到Oasis钱包内使用。但Bitpie钱包不支持导入Oasis的私钥或助记词来在Bitpie钱包内使用。因此需要使用转账的方式，将ROSE从官方钱包，转账到Bitpie钱包的新地址中。
-
-官方web钱包近期出现问题，建议使用插件钱包或Bitpie钱包
 
 > moi 2022/07/15
