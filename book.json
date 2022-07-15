@@ -2,7 +2,8 @@
 	"plugins": [
 		"expandable-chapters",
 		"page-treeview",
-		"anchor-navigation-ex"
+		"anchor-navigation-ex",
+		"auto-scroll-table"
 	],
 	"pluginsConfig": {
 		"anchor-navigation-ex": {
