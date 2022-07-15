@@ -31,7 +31,8 @@ Emerald钱包：MetaMask等可添加RPC网络的第三方钱包（App或插件�
 |Oasis插件钱包|√|√||√|
 |Bitpie等||√|||
 |MetaMask|||√||
-||||||
+
+### 钱包地址
 
 - Oasis插件钱包（Chrome浏览器） - ROSE管理、质押、主网与Emerald互转ROSE
    [https://chrome.google.com/webstore/detail/oasis-wallet/ppdadbejkmjnefldpcdjhnkpbjkikoip?hl=zh-CN](https://chrome.google.com/webstore/detail/oasis-wallet/ppdadbejkmjnefldpcdjhnkpbjkikoip?hl=zh-CN)
@@ -42,6 +43,14 @@ Emerald钱包：MetaMask等可添加RPC网络的第三方钱包（App或插件�
 - App
    - [Bitpie钱包](https://bitpie.com/) - ROSE管理、质押
    - MetaMask App - 同Metamask插件钱包
+- Emerald RPC
+
+```
+主网名称：Emerald Mainnet
+RPC URL：https://emerald.oasis.dev/
+ID:42262
+代币：ROSE
+```
 
 ## 三、web钱包
 
@@ -68,7 +77,7 @@ https://chrome.google.com/webstore/detail/oasis-wallet/ppdadbejkmjnefldpcdjhnkpb
 
 上文中需要补充一下几点操作
 
-###  4.1、兼容钱包是什么？
+### 兼容钱包是什么？
 
 Emerald 为 EVM 架构，因此助记词、私钥、地址等，均与ETH、BSC 链相同。因此可以直接使用这两个链上的助记词、私钥、地址等信息。
 
@@ -113,3 +122,5 @@ Bitpie钱包与官方钱包使用相同的BIP39算法,但未使用ARD-0008标准
 Bitpie钱包可以导出私钥，然后导入到Oasis钱包内使用。但Bitpie钱包不支持导入Oasis的私钥或助记词来在Bitpie钱包内使用。因此需要使用转账的方式，将ROSE从官方钱包，转账到Bitpie钱包的新地址中。
 
 官方web钱包近期出现问题，建议使用插件钱包或Bitpie钱包
+
+> moi 2022/07/15
