@@ -1,6 +1,6 @@
 # 钱包
 
-本文将系统的介绍Oasis的钱包分类、使用场景、适用功能等。
+本文介绍Oasis的钱包分类、使用场景、适用功能等。
 
 ## 一、Oasis 分层结构
 
@@ -33,19 +33,42 @@ Emerald钱包：MetaMask等可添加RPC网络的第三方钱包（App或插件�
 |MetaMask|||√||
 ||||||
 
+- Oasis插件钱包（Chrome浏览器） - ROSE管理、质押、主网与Emerald互转ROSE
+   [https://chrome.google.com/webstore/detail/oasis-wallet/ppdadbejkmjnefldpcdjhnkpbjkikoip?hl=zh-CN](https://chrome.google.com/webstore/detail/oasis-wallet/ppdadbejkmjnefldpcdjhnkpbjkikoip?hl=zh-CN)
+- Oasisweb钱包 - ROSE管理、质押
+   [https://wallet.oasisprotocol.org/](https://wallet.oasisprotocol.org/)
+- Metamask插件钱包（Chrome浏览器） - 使用Emerald网络里的ROSE，参与Emerald上的生态项目
+   [https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=zh-CN](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=zh-CN)
+- App
+   - [Bitpie钱包](https://bitpie.com/) - ROSE管理、质押
+   - MetaMask App - 同Metamask插件钱包
+
 ## 三、web钱包
 
 https://wallet.oasisprotocol.org/
 
+打开钱包后，可以使用助记词、私钥或硬件钱包的方式登陆，或者新创建钱包。请注意必须备份好您的私钥。
+
+![](wallet_3.jpg)
+
+- 右上角，为Mainnet与Testnet切换，应保持在Mainnet
+- 中上部，为钱包地址、余额等
+- 下方为钱包的近期交易数据
+
+在左侧中选择 Staking，可以看到质押相关的操作。具体内容请参照本文第五部分。
+
+![](wallet_4.jpg)
 
 
 ## 四、插件钱包，共识层与Emerald互转ROSE
+
+https://chrome.google.com/webstore/detail/oasis-wallet/ppdadbejkmjnefldpcdjhnkpbjkikoip?hl=zh-CN
 
 请参照[Oasis与Emerald之间的ROSE划转](/dev_support/Oasis与Emerald之间的ROSE划转/Oasis与Emerald之间的ROSE划转.md)
 
 上文中需要补充一下几点操作
 
-###  4.1、兼容钱包
+###  4.1、兼容钱包是什么？
 
 Emerald 为 EVM 架构，因此助记词、私钥、地址等，均与ETH、BSC 链相同。因此可以直接使用这两个链上的助记词、私钥、地址等信息。
 
@@ -61,8 +84,11 @@ Emerald 为 EVM 架构，因此助记词、私钥、地址等，均与ETH、BSC 
 
 进入“设置”、“安全与隐私”，可以看到“显示私钥”
 
+## 五、质押
 
-## 五、bitpie 钱包转移到官方钱包
+详情请查阅 ![质押](/dev-oasis-china/general/质押.md)
+
+## 六、bitpie 钱包转移到官方钱包
 
 ### 钱包区别
 
