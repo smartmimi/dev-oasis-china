@@ -25,12 +25,12 @@ Emerald钱包：MetaMask等可添加RPC网络的第三方钱包（App或插件�
 
 **插件钱包：可实现共识层与Paratime层的ROSE流转。**
 
-|<span style="display:inline-block;width:100px">钱包名称</span>|<span style="display:inline-block;width:100px">官方</span>|<span style="display:inline-block;width:100px">共识层</span>|<span style="display:inline-block;width:100px">Emerald</span>|<span style="display:inline-block;width:100px">流转</span>|
-|---|---|---|---|---|
-|Oasis网页钱包|√|√|||
-|Oasis插件钱包|√|√||√|
-|Bitpie等||√|||
-|MetaMask|||√||
+|钱包名称|官方|共识层|Emerald|
+|---|---|---|---|
+|Oasis网页钱包|√|√||
+|Oasis插件钱包|√|√||
+|Bitpie等||√||
+|MetaMask|||√|
 
 ### 钱包地址
 
