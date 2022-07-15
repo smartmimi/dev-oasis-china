@@ -50,7 +50,7 @@ ID:42262
 
 ## 三、web钱包
 
-https://wallet.oasisprotocol.org/
+[https://wallet.oasisprotocol.org/](https://wallet.oasisprotocol.org/)
 
 打开钱包后，可以使用助记词、私钥或硬件钱包的方式登陆，或者新创建钱包。请注意必须备份好您的私钥。
 
@@ -67,7 +67,7 @@ https://wallet.oasisprotocol.org/
 
 ## 四、插件钱包，共识层与Emerald互转
 
-https://chrome.google.com/webstore/detail/oasis-wallet/ppdadbejkmjnefldpcdjhnkpbjkikoip?hl=zh-CN
+[https://chrome.google.com/webstore/detail/oasis-wallet/ppdadbejkmjnefldpcdjhnkpbjkikoip?hl=zh-CN](https://chrome.google.com/webstore/detail/oasis-wallet/ppdadbejkmjnefldpcdjhnkpbjkikoip?hl=zh-CN)
 
 请参照[Oasis与Emerald之间的ROSE划转](/dev_support/Oasis与Emerald之间的ROSE划转/Oasis与Emerald之间的ROSE划转.md)
 
