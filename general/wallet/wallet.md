@@ -23,9 +23,9 @@ Oasis Network是于2020年11月19日上线的隐私公链。采用共识层与�
 
 Emerald钱包：MetaMask等可添加RPC网络的第三方钱包（App或插件）
 
-**插件钱包：可实现共识层与Paratime层的ROSE流动。**
+**插件钱包：可实现共识层与Paratime层的ROSE流转。**
 
-钱包名称|官方|共识层|Emerald|共识层与Emerald流转
+钱包名称|官方|共识层|Emerald|流转
 -|-|-|-|-
 Oasis网页钱包|√|√||
 Oasis插件钱包|√|√||√
