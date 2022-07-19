@@ -23,12 +23,12 @@
 - [FAQ](./dev_support/FAQ.md)
 - 节点搭建
   - [节点搭建指导版](./dev_support/node/节点搭建指导版.md)
-  - [节点搭建中文版]
+  - 节点搭建中文版
     - [概述](./dev_support/node/zer0stab/Overview.md)
     - 前提条件
       - [01硬件需求](./dev_support/node/zer0stab/01前提条件/01硬件需求.md)
       - [02质押需求](./dev_support/node/zer0stab//01前提条件/02质押需求.md)
-      - [03安装 Oasis 节点](./dev_support/node/zer0stab//01前提条件/03安装 Oasis 节点.md)
+      - [03安装Oasis节点](./dev_support/node/zer0stab//01前提条件/03安装Oasis节点.md)
       - [04系统配置](./dev_support/node/zer0stab//01前提条件/04系统配置.md)
       - [05建立可信执行环境(TEE)](./dev_support/node/zer0stab//01前提条件/05建立可信执行环境(TEE).md)
     - 部署节点
@@ -49,14 +49,11 @@
       - [04与远程签名者一起使用有账本支持的共识密钥](./dev_support/node/zer0stab/03高级设置/04与远程签名者一起使用有账本支持的共识密钥.md)
     - 节点维护
       - [01清除节点状态](./dev_support/node/zer0stab/04节点维护/01清除节点状态.md)
-      - [02处理网络升级 ](./dev_support/node/zer0stab/04节点维护/02处理网络升级 .md)
-      - [03添加或删除节点 ](./dev_support/node/zer0stab/04节点维护/03添加或删除节点 .md)
+      - [02处理网络升级](./dev_support/node/zer0stab/04节点维护/02处理网络升级.md)
+      - [03添加或删除节点](./dev_support/node/zer0stab/04节点维护/03添加或删除节点.md)
       - [04更新节点证书](./dev_support/node/zer0stab/04节点维护/04更新节点证书.md)
       - [05关闭节点](./dev_support/node/zer0stab/04节点维护/05关闭节点.md)
-    - 节点故障排除
-      - [节点故障排除](./dev_support/node/zer0stab/节点故障排除.md)
-
-
+    - [节点故障排除](./dev_support/node/zer0stab/节点故障排除.md)
 
 - [Gas设置](./dev_support/Gas设置/Gas设置.md)
 - [Oasis与Emerald之间的ROSE划转](./dev_support/Oasis与Emerald之间的ROSE划转/Oasis与Emerald之间的ROSE划转.md)

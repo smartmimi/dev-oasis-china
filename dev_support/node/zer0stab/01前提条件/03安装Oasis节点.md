@@ -1,4 +1,4 @@
-# 安装 Oasis 节点
+# 安装Oasis节点
 
 Oasis 节点是从[Oasis Core](https://github.com/oasisprotocol/oasis-core)库`go/`路径创建的源码文件
 
