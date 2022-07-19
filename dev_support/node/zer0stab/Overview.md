@@ -7,11 +7,11 @@ ParaTime nodes can be operated by anyone.
 
 [Oasis Network](notion://www.notion.so/oasis-network/overview.md) 由共识层(Consensus Layer)和ParaTimes组成。Consensus 和 ParaTime节点可由任何人操作。
 
-:::信息
+> **[info] 提示**
 
-共识层(Consensus Layer) 是一个由120个验证器节点组成的去中心化集合，也是Oasis Network的核心骨干网络。目前验证器集的大小是由治理决定的--2020年网络开始时验证器集有80个节点，在过去的几次网络升级中已经扩大到120个节点。目前的节点运营商可通过[Oasis Scan](https://www.oasisscan.com/validators)等区块浏览器产看看到。
+> 共识层(Consensus Layer) 是一个由120个验证器节点组成的去中心化集合，也是Oasis Network的核心骨干网络。目前验证器集的大小是由治理决定的--2020年网络开始时验证器集有80个节点，在过去的几次网络升级中已经扩大到120个节点。目前的节点运营商可通过[Oasis Scan](https://www.oasisscan.com/validators)等区块浏览器产看看到。
 
-:::
+>
 
 :::信息
 
