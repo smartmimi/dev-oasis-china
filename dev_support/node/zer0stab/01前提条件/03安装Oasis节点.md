@@ -6,19 +6,13 @@ It contains both the logic for running an Oasis node and also provides a CLI for
 
 它既包含运行 Oasis 节点的逻辑，也提供了一个 CLI 来处理注册、质押和其他操作。
 
-:::警告
-
+> 警告  
 Oasis 节点目前仅在 x86_64 Linux 系统上受支持。
-
-:::
 
 ## **下载源码版本**
 
-:::提示
-
+> 提示  
 我们建议您自己从源代码构建 Oasis 节点，以用于 Oasis 节点的生产部署。
-
-:::
 
 为方便起见，我们提供了由 Oasis Protocol Foundation 构建的二进制文件。[网络参数](https://docs.oasis.dev/general/oasis-network/network-parameters)页面中提供了源码文件的链接。
 
@@ -28,13 +22,9 @@ Oasis 节点目前仅在 x86_64 Linux 系统上受支持。
 
 有关详细信息，请参阅[Oasis Core 的构建环境设置和构建](https://docs.oasis.dev/oasis-core/development-setup/build-environment-setup-and-building)文档。
 
-:::危险
-
-`[master`分支](https://github.com/oasisprotocol/oasis-core/tree/master/)中的代码可能与主网中其他节点使用的代码不兼容。
-
+> 危险  
+[master分支](https://github.com/oasisprotocol/oasis-core/tree/master/)中的代码可能与主网中其他节点使用的代码不兼容。  
 确保使用[Network Parameters](https://docs.oasis.dev/general/oasis-network/network-parameters)中指定的版本。
-
-:::
 
 ## 将`oasis-node` 源码添加到`PATH`路径
 

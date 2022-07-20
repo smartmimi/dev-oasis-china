@@ -1,10 +1,7 @@
 # 建立可信执行环境（TEE）
 
-:::信息
-
+> 信息  
 如果要运行的ParaTime不需要使用TEE（例如Intel SGX），可以跳过设置TEE。
-
-:::
 
 如果ParaTime被配置为在TEE中运行（目前只有Intel SGX），你必须确保你的系统支持运行SGX enclave。这要求你的硬件有SGX支持，SGX支持被启用，并且额外的驱动和软件组件被正确安装和运行。
 
@@ -14,11 +11,9 @@
 
 ## 安装SGX Linux驱动程序
 
-:::信息
-
+> 信息  
 如果您运行的是 Linux 内核版本 5.11 或更高版本，则已包含所需的 SGX 驱动程序，无需额外安装，可跳过本节。
 
-:::
 
 如在较旧的发行版上安装，请参见下文 [旧版驱动程序](https://github.com/intel/linux-sgx-driver)的安装说明。
 
@@ -42,25 +37,12 @@ sudo apt install intel-sgx-dkms
 
 ```
 
-:::警告
-
-某些[Azure 机密计算实例](https://docs.microsoft.com/en-us/azure/confidential-computing/quick-create-portal) 预装 了[Intel SGX DCAP 驱动程序。](https://github.com/intel/SGXDataCenterAttestationPrimitives/tree/master/driver/linux)
-
-请运行`dmesg | grep -i sgx`确定并观察是否显示，如下所示的行
-
-```
-[    4.991649] sgx: intel_sgx: Intel SGX DCAP Driver v1.33
-
-```
-
-如果是这种情况，您需要通过运行以下命令将英特尔 SGX DCAP 驱动程序模块列入黑名单：
-
-```
+> 警告  
+某些[Azure 机密计算实例](https://docs.microsoft.com/en-us/azure/confidential-computing/quick-create-portal) 预装 了[Intel SGX DCAP 驱动程序。](https://github.com/intel/SGXDataCenterAttestationPrimitives/tree/master/driver/linux)  
+请运行`dmesg | grep -i sgx`确定并观察是否显示，如下所示的行  
+[    4.991649] sgx: intel_sgx: Intel SGX DCAP Driver v1.33  
+如果是这种情况，您需要通过运行以下命令将英特尔 SGX DCAP 驱动程序模块列入黑名单：  
 echo "blacklist intel_sgx" | sudo tee -a /etc/modprobe.d/blacklist-intel_sgx.conf >/dev/null
-
-```
-
-:::
 
 ### Fedora 34/33
 
@@ -102,11 +84,8 @@ devtmpfs        /dev        devtmpfs    defaults,exec 0 0
 
 ```
 
-:::信息
-
+> 信息  
 这是推荐的修改虚拟（即API）文件系统挂载选项的方法，详见[systemd](https://www.freedesktop.org/wiki/Software/systemd/APIFileSystems/)的API文件系统文档。
-
-:::
 
 ## 安装AESM服务
 
@@ -160,11 +139,8 @@ docker run \\
 
 ```
 
-:::提示
-
+> 提示  
 请确保根据你的内核版本使用正确的设备。上面的例子假设使用了较新的驱动程序，它使用了两个设备。对于旧版本驱动程序，您需要指定`--device /dev/isgx`。
-
-:::
 
 ### **支持 Podman 的系统**
 
@@ -183,11 +159,8 @@ sudo podman create \\
 
 ```
 
-:::提示
-
+> 提示  
 请确保根据你的内核版本使用正确的设备。上面的例子假设使用了较新的驱动程序，它使用了两个设备。对于旧版本驱动程序，您需要指定`--device /dev/isgx`。
-
-:::
 
 然后`container-aesmd.service`为它生成systemd单元文件：
 
@@ -226,11 +199,8 @@ sudo podman logs -t -f aesmd
 
 它没有预先构建的软件包，因此您需要自己编译它。
 
-:::信息
-
+> 提示  
 sgxs-tools 必须使用 Rust 工具链的夜间版本编译，因为它们使用`#![feature]`宏。
-
-:::
 
 ### 安装依赖
 
@@ -259,11 +229,8 @@ sudo apt install gcc protobuf-compiler pkg-config libssl-dev
 
 我们遵循Rust给出的建议，使用rustup来安装和管理Rust版本。
 
-:::警告
-
+> 警告  
 rustup不能和发行版打包的Rust版本一起安装。在你开始使用rustup之前，你需要删除它（如果它存在的话）。
-
-:::
 
 通过运行以下命令安装 rustup：:
 
@@ -272,11 +239,8 @@ curl --proto '=https' --tlsv1.2 -sSf <https://sh.rustup.rs> | sh
 
 ```
 
-:::提示
-
+> 提示  
 如果你想避免直接执行从互联网上获取的shell脚本，你也可以为你的平台下载rustup-init可执行文件并手动运行它。这将运行rustup-init，它将在你的系统上下载并安装最新的稳定版本的Rust。
-
-:::
 
 安装 Rust nightly :
 
@@ -301,11 +265,8 @@ sudo $(which sgx-detect)
 
 ```
 
-:::提示
-
+> 提示  
 如果您不以 身份运行该`sgx-detect`工具`root`，则它可能没有访问 SGX 内核设备的必要权限
-
-:::
 
 当一切正常时，你应该得到类似以下的输出（有些东西取决于硬件特性，所以你的输出可能不同）。
 
