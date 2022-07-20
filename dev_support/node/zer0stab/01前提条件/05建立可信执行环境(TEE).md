@@ -1,7 +1,6 @@
 # 建立可信执行环境（TEE）
 
-> 信息  
-如果要运行的ParaTime不需要使用TEE（例如Intel SGX），可以跳过设置TEE。
+> 提示  如果要运行的ParaTime不需要使用TEE（例如Intel SGX），可以跳过设置TEE。
 
 如果ParaTime被配置为在TEE中运行（目前只有Intel SGX），你必须确保你的系统支持运行SGX enclave。这要求你的硬件有SGX支持，SGX支持被启用，并且额外的驱动和软件组件被正确安装和运行。
 
@@ -11,8 +10,7 @@
 
 ## 安装SGX Linux驱动程序
 
-> 信息  
-如果您运行的是 Linux 内核版本 5.11 或更高版本，则已包含所需的 SGX 驱动程序，无需额外安装，可跳过本节。
+> 提示  如果您运行的是 Linux 内核版本 5.11 或更高版本，则已包含所需的 SGX 驱动程序，无需额外安装，可跳过本节。
 
 
 如在较旧的发行版上安装，请参见下文 [旧版驱动程序](https://github.com/intel/linux-sgx-driver)的安装说明。
@@ -84,8 +82,7 @@ devtmpfs        /dev        devtmpfs    defaults,exec 0 0
 
 ```
 
-> 信息  
-这是推荐的修改虚拟（即API）文件系统挂载选项的方法，详见[systemd](https://www.freedesktop.org/wiki/Software/systemd/APIFileSystems/)的API文件系统文档。
+> 提示  这是推荐的修改虚拟（即API）文件系统挂载选项的方法，详见[systemd](https://www.freedesktop.org/wiki/Software/systemd/APIFileSystems/)的API文件系统文档。
 
 ## 安装AESM服务
 

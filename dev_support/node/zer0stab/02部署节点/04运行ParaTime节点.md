@@ -1,12 +1,11 @@
 # 运行ParaTime节点
 
-:::信息
-
+> 提示  
 这些说明是为了设置一个ParaTime节点，该节点参与一个或多个ParaTime计算委员会。如果你想运行一个ParaTime客户端节点，请参阅运行ParaTime客户端节点的说明。如果你想运行一个验证器节点，请参阅运行验证器节点的说明。同样地，如果你想运行一个非验证器节点，请看运行非验证器节点的说明。
 
 :::
 
-:::警告
+> 警告  
 
 对于生产设置，我们建议将ParaTime计算/存储节点与验证器节点（如果你运行一个）分开运行。
 
@@ -14,13 +13,13 @@
 
 :::
 
-:::提示
+> 提示  
 
 如果你正在寻找一些你可以运行的具体ParaTimes，请看ParaTimes及其参数列表。
 
 :::
 
-:::提示
+> 提示  
 
 Oasis Core在内部将ParaTimes称为运行时间，因此所有配置选项的名称中都有运行时间。
 
@@ -37,7 +36,7 @@ Oasis Core在内部将ParaTimes称为运行时间，因此所有配置选项的�
     - `bin`: 这将存储Oasis Node运行ParaTimes所需的二进制文件。
     - `runtimes`: 这将存储ParaTime的捆绑数据
 
-:::提示
+> 提示  
 
 你可以随意命名你的工作目录，例如/srv/oasis/。
 
@@ -47,14 +46,13 @@ Oasis Core在内部将ParaTimes称为运行时间，因此所有配置选项的�
 
 - 创世文件被复制到`/node/etc/genesis.json`。
 
-:::提示
+> 提示  
 
 阅读其余的验证器节点设置说明也可能是有用的。
 
 :::
 
-:::信息
-
+> 提示  
 为了加快启动你的新节点，我们建议从你现有的节点复制节点的状态，或者使用状态同步来同步它。
 
 :::
@@ -147,13 +145,13 @@ cat <PATH-TO-entity.json>
 
 然后按照生成实体注册交易的说明，通过实体注册交易生成并提交新的/更新的实体描述符。
 
-:::警告
+> 警告  
 
 确保你的实体描述符（即entity.json）被复制到你的在线服务器，并保存为/node/entity/entity.json，以确保节点的配置能找到它。
 
 :::
 
-:::提示
+> 提示  
 
 你将通过worker.registration.entity配置标志，将节点配置为自动注册它所启用的角色（即存储和计算角色）。
 
@@ -161,8 +159,7 @@ cat <PATH-TO-entity.json>
 
 :::
 
-:::信息
-
+> 提示  
 运行计算节点的ParaTime奖励将被发送到你在ParaTime内的实体地址。要获取共识层的奖励，你需要先提取它们。阅读向/从ParaTime存入/提取代币章节以了解更多。
 
 :::
@@ -173,8 +170,7 @@ cat <PATH-TO-entity.json>
 
 当ParaTime在可信执行环境（TEE）中运行时，捆绑包也将包含所有需要的工件（例如二进制的SGXS版本和任何飞地签名）。
 
-:::危险
-
+> 危险  
 与创世文件一样，确保你从一个可信赖的来源获得这些文件。
 
 :::
@@ -201,8 +197,7 @@ Oasis Core Runtime Loader二进制文件（oasis-core-runtime-loader）是Oasis 
 
 对于每个ParaTime，你需要获得它的捆绑包，并将其安装到你的节点工作目录的runtimes子目录下。
 
-:::信息
-
+> 提示  
 例如，对于Cipher ParaTime，你必须获得cipher-paratime.oc bundle并将其安装到/node/runtimes/cipher-paratime.oc。
 
 :::
@@ -249,7 +244,7 @@ sudo make install
 
 ```
 
-:::警告
+> 警告  
 
 注意，Oasis Node希望Bubblewrap默认安装在`/usr/bin/bwrap`下。
 
@@ -264,7 +259,7 @@ bwrap --version
 
 ```
 
-:::警告
+> 警告  
 
 Ubuntu 18.04 LTS（以及更早的版本）提供了过旧的`bubblewrap`。请关注这些系统的其他发行版部分。
 
@@ -353,7 +348,7 @@ ias:
     - [您可以在Network Parameters](https://docs.oasis.dev/general/oasis-network/network-parameters)中找到当前的 Oasis IAS 代理地址
     - 如果需要，您还可以[运行自己的 IAS 代理](https://docs.oasis.dev/general/run-a-node/set-up-your-node/run-an-ias-proxy)
 
-:::警告
+> 警告  
 
 确保worker.p2p.port（默认：9200）端口在互联网上是公开的，并且可以公开访问（用于TCP流量）。
 
