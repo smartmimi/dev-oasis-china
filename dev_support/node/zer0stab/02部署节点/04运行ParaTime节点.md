@@ -129,14 +129,8 @@ cat <PATH-TO-entity.json>
 与创世文件一样，确保你从一个可信赖的来源获得这些文件。
 
 > 提示  
-从源代码编译 ParaTime 二进制文件  
-如果您决定自己从源代码构建 ParaTime 二进制文件，请确保遵循我们的确定性编译指南，以确保您收到完全相同的二进制文件。  
-当 ParaTime 在 TEE 中运行时，与在共识层中注册的二进制文件不同的二进制文件将不起作用，并将被网络拒绝。
-
-### 从源代码编译ParaTime二进制文件
-
-如果你决定自己从源代码构建ParaTime二进制文件，请确保你遵循我们的确定性编译指南，以确保你收到完全相同的二进制文件。
-
+从源代码编译ParaTime二进制文件  
+如果你决定自己从源代码构建ParaTime二进制文件，请确保你遵循我们的确定性编译指南，以确保你收到完全相同的二进制文件。  
 当ParaTime在TEE中运行时，与在共识层中注册的不同的二进制将无法工作，并将被网络拒绝。
 
 ### 安装Oasis 核心Runtime Loader
@@ -283,9 +277,9 @@ ias:
 
 - `{{ external_address }}`: 注册该节点时使用的外部IP
 - `{{ seed_node_address }}`: 种子节点地址`ID@IP:port`
-    - [您可以在网络参数](https://docs.oasis.dev/general/oasis-network/network-parameters)中找到当前的 Oasis 种子节点地址
+    - 您可以在[网络参数](/general/network_parameters/network_parameters.md)中找到当前的 Oasis 种子节点地址
 - `{{ runtime_orc_path }}`: [ParaTime 包](https://docs.oasis.dev/general/run-a-node/set-up-your-node/run-a-paratime-node#the-paratime-bundle)`/node/runtimes/foo-paratime.orc`的路径
-    - [您可以在Network Paramers](https://docs.oasis.dev/general/oasis-network/network-parameters#paratimes)中找到当前 Oasis 支持的ParaTimes.
+    - [您可以在Network Paramers](/general/network_parameters/network_parameters.md)中找到当前 Oasis 支持的ParaTimes.
 - `{{ ias_proxy_address }}`: IAS 代理地址`ID@HOST:port`
     - [您可以在Network Parameters](https://docs.oasis.dev/general/oasis-network/network-parameters)中找到当前的 Oasis IAS 代理地址
     - 如果需要，您还可以[运行自己的 IAS 代理](https://docs.oasis.dev/general/run-a-node/set-up-your-node/run-an-ias-proxy)

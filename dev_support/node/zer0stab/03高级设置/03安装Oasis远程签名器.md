@@ -1,7 +1,7 @@
 # 03安装Oasis远程签名器
 
-> 提示  如果您打算使用远程签名者设置配置 Oasis 节点，则只需安装 Oasis Remote Signer 二进制文件。
-
+> 提示  
+如果您打算使用远程签名者设置配置 Oasis 节点，则只需安装 Oasis Remote Signer 二进制文件。  
 [使用带有远程签名者的 Ledger-backed Consensus Key](https://docs.oasis.dev/general/run-a-node/advanced/using-ledger-backed-consensus-key-with-a-remote-signer)中描述了这种设置的示例。
 
 Oasis Remote Signer 是从[Oasis Core](https://github.com/oasisprotocol/oasis-core)存储库的`[go/oasis-remote-signer`路径](https://github.com/oasisprotocol/oasis-core/tree/master/go/oasis-remote-signer)创建的二进制文件。
