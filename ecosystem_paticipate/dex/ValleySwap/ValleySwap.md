@@ -35,10 +35,7 @@ EVODefi连接Metamask钱包,From选择Ethereum,To选择Oasis,Token选择USDT,然
 
 可参考教程[EVODeFi简介及教程](/ecosystem_paticipate/bridge/EVODeFi/EVODeFi简介及教程.md)
 
-
-
 ![](valley1.jpg)
-
 
 ### 二、合成ROSE-USDT LP令牌
 
@@ -47,23 +44,17 @@ EVODefi连接Metamask钱包,From选择Ethereum,To选择Oasis,Token选择USDT,然
 
 ![](valley2.jpg)
 
-
-
 #### 2.添加流动性
 
 点击Add Liquidity添加流动性
 
 ![](valley3.jpg)
 
-
-
 #### 3.合成令牌
 
 输入对应的ROSE和USDT后选择Supply，成功后会获得LP令牌
 
 ![](valley4.jpg)
-
-
 
 ### 三、质押ROSE-USDT LP令牌
 
@@ -72,15 +63,11 @@ EVODefi连接Metamask钱包,From选择Ethereum,To选择Oasis,Token选择USDT,然
 
 ![](valley5.jpg)
 
-
-
 #### 2.收获奖励矿币
 
 点击Havest，收获当前矿币资产存入钱包
 
 ![](valley6.jpg)
-
-
 
 ### 四、解除质押ROSE-USDT LP令牌
 
@@ -88,8 +75,6 @@ EVODefi连接Metamask钱包,From选择Ethereum,To选择Oasis,Token选择USDT,然
 点击Unstake，解除当前质押
 
 ![](valley7.jpg)
-
-
 
 #### 2.Remove流动性
 

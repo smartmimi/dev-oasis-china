@@ -32,8 +32,6 @@ ETH:
 
 详细请参考EVODeFi Bridge[官网](https://docs.evodefi.com/evodefi-the-next-generation-cross-chain-bridge/evodefi-bridge/bridge-faq)
 
-
-
 ## 三、功能介绍：
 
 1、	进入ValleySwap [官网](https://valleyswap.com/)，点击Bridge，进入EVODeFi Bridge/或者直接进入EVODeFi Bridge[官网](https://bridge.evodefi.com/)。

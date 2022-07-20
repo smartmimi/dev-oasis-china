@@ -2,7 +2,6 @@
 
 ![](banner.png)
 
-
 ### 挖矿
 这里以wROSE-USDC为例，共需要以下步骤
 
@@ -17,7 +16,6 @@
 我们可以通过将部分ROSE通过DEX功能转换为wROSE，再将部分ROSE转换为USDC，至于如何将ROSE存入钱包中，请参考[Oasis与Emerald之间的ROSE划转](https://dev-oasis-cn.gitbook.io/support/ji-shu-zhi-chi/oasis-yu-emerald-zhi-jian-de-rose-hua-zhuan)
 
 ![](WX20220319-123914@2x.png)
-
 
 #### 2.添加wROSE-USDC LP
 ![](WX20220319-124100@2x.png)
@@ -41,16 +39,13 @@
 
 在左侧输入框点击MAX，然后点击Deposit存入，钱包确认即可成功，同理，提取点击Withdraw
 
-
 #### 4.收获流动性收益
 
 ![](WX20220319-133844@2x.png)
 
-
 #### 5.解除wROSE-USDC LP质押
 
 ![](WX20220319-144608@2x.png)
-
 
 #### 6.移除wROSE-USDC LP
 
@@ -76,7 +71,5 @@ BLING：0x72Ad551af3c884d02e864B182aD9A34EE414C36C
 [GemKeeper博客](https://gemkeeperdefi.medium.com/)
 
 [更多细节参考-英文文档](https://gemkeeper-finance.gitbook.io/docs/welcome/introduction)
-
-
 
 > 作者：胜军哥 更新时间：2022/3/24

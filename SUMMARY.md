@@ -56,7 +56,6 @@
 - [Gas设置](./dev_support/Gas设置/Gas设置.md)
 - [Oasis与Emerald之间的ROSE划转](./dev_support/Oasis与Emerald之间的ROSE划转/Oasis与Emerald之间的ROSE划转.md)
 
-
 ### 生态参与
 
 - [生态参与概览](./ecosystem_paticipate/概览.md)
@@ -84,8 +83,6 @@
 - [资讯概览](./oasis_info/概览.md)
 - [Oasis里程碑](./oasis_info/Oasis里程碑.md)
 ------
-
-
 
 ### 相关链接
 

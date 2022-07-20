@@ -12,7 +12,6 @@
 
 > 提示  如果您运行的是 Linux 内核版本 5.11 或更高版本，则已包含所需的 SGX 驱动程序，无需额外安装，可跳过本节。
 
-
 如在较旧的发行版上安装，请参见下文 [旧版驱动程序](https://github.com/intel/linux-sgx-driver)的安装说明。
 
 ### Ubuntu 18.04/16.04
@@ -35,8 +34,7 @@ sudo apt install intel-sgx-dkms
 
 ```
 
-> 警告  
-某些[Azure 机密计算实例](https://docs.microsoft.com/en-us/azure/confidential-computing/quick-create-portal) 预装 了[Intel SGX DCAP 驱动程序。](https://github.com/intel/SGXDataCenterAttestationPrimitives/tree/master/driver/linux)  
+> 警告  某些[Azure 机密计算实例](https://docs.microsoft.com/en-us/azure/confidential-computing/quick-create-portal) 预装 了[Intel SGX DCAP 驱动程序。](https://github.com/intel/SGXDataCenterAttestationPrimitives/tree/master/driver/linux)  
 请运行`dmesg | grep -i sgx`确定并观察是否显示，如下所示的行  
 [    4.991649] sgx: intel_sgx: Intel SGX DCAP Driver v1.33  
 如果是这种情况，您需要通过运行以下命令将英特尔 SGX DCAP 驱动程序模块列入黑名单：  
@@ -136,8 +134,7 @@ docker run \\
 
 ```
 
-> 提示  
-请确保根据你的内核版本使用正确的设备。上面的例子假设使用了较新的驱动程序，它使用了两个设备。对于旧版本驱动程序，您需要指定`--device /dev/isgx`。
+> 提示  请确保根据你的内核版本使用正确的设备。上面的例子假设使用了较新的驱动程序，它使用了两个设备。对于旧版本驱动程序，您需要指定`--device /dev/isgx`。
 
 ### **支持 Podman 的系统**
 
@@ -156,8 +153,7 @@ sudo podman create \\
 
 ```
 
-> 提示  
-请确保根据你的内核版本使用正确的设备。上面的例子假设使用了较新的驱动程序，它使用了两个设备。对于旧版本驱动程序，您需要指定`--device /dev/isgx`。
+> 提示  请确保根据你的内核版本使用正确的设备。上面的例子假设使用了较新的驱动程序，它使用了两个设备。对于旧版本驱动程序，您需要指定`--device /dev/isgx`。
 
 然后`container-aesmd.service`为它生成systemd单元文件：
 
@@ -196,8 +192,7 @@ sudo podman logs -t -f aesmd
 
 它没有预先构建的软件包，因此您需要自己编译它。
 
-> 提示  
-sgxs-tools 必须使用 Rust 工具链的夜间版本编译，因为它们使用`#![feature]`宏。
+> 提示  sgxs-tools 必须使用 Rust 工具链的夜间版本编译，因为它们使用`#![feature]`宏。
 
 ### 安装依赖
 
@@ -226,8 +221,7 @@ sudo apt install gcc protobuf-compiler pkg-config libssl-dev
 
 我们遵循Rust给出的建议，使用rustup来安装和管理Rust版本。
 
-> 警告  
-rustup不能和发行版打包的Rust版本一起安装。在你开始使用rustup之前，你需要删除它（如果它存在的话）。
+> 警告  rustup不能和发行版打包的Rust版本一起安装。在你开始使用rustup之前，你需要删除它（如果它存在的话）。
 
 通过运行以下命令安装 rustup：:
 
@@ -236,8 +230,7 @@ curl --proto '=https' --tlsv1.2 -sSf <https://sh.rustup.rs> | sh
 
 ```
 
-> 提示  
-如果你想避免直接执行从互联网上获取的shell脚本，你也可以为你的平台下载rustup-init可执行文件并手动运行它。这将运行rustup-init，它将在你的系统上下载并安装最新的稳定版本的Rust。
+> 提示  如果你想避免直接执行从互联网上获取的shell脚本，你也可以为你的平台下载rustup-init可执行文件并手动运行它。这将运行rustup-init，它将在你的系统上下载并安装最新的稳定版本的Rust。
 
 安装 Rust nightly :
 
@@ -262,8 +255,7 @@ sudo $(which sgx-detect)
 
 ```
 
-> 提示  
-如果您不以 身份运行该`sgx-detect`工具`root`，则它可能没有访问 SGX 内核设备的必要权限
+> 提示  如果您不以 身份运行该`sgx-detect`工具`root`，则它可能没有访问 SGX 内核设备的必要权限
 
 当一切正常时，你应该得到类似以下的输出（有些东西取决于硬件特性，所以你的输出可能不同）。
 
