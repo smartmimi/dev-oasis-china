@@ -3,7 +3,8 @@
 记录Oasis发展历程的大事件
 
 ## 2022
-
+- 2022/07/28 [Oasis Labs 与 Meta 建立合作,构建隐私保护平台助力 AI 模型公平性发展](https://medium.com/@OasisNetworkCN/oasis-labs-%E4%B8%8E-meta-%E5%BB%BA%E7%AB%8B%E5%90%88%E4%BD%9C-%E6%9E%84%E5%BB%BA%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E5%B9%B3%E5%8F%B0%E5%8A%A9%E5%8A%9B-ai-%E6%A8%A1%E5%9E%8B%E5%85%AC%E5%B9%B3%E6%80%A7%E5%8F%91%E5%B1%95-a27ff7e18594) - Oasis Labs 宣布与著名科技公司 Meta 建立合作伙伴关系，Oasis Labs 将推出一个平台用于评估 Meta 产品的公平性，同时保护用户隐私，实现包容性和公平性的首创举措。
+- 2022/07/21 [Sapphire现已上线测试网](https://medium.com/@OasisNetworkCN/sapphire%E7%8E%B0%E5%B7%B2%E4%B8%8A%E7%BA%BF%E6%B5%8B%E8%AF%95%E7%BD%91-%E9%A6%96%E4%B8%AAevm%E5%85%BC%E5%AE%B9%E7%9A%84%E9%9A%90%E7%A7%81paratime-ce06c260143d) - 首个EVM兼容的隐私ParaTime
 - 2022/06/16 [Oasis 已上线ROSE Bloom开发人员支持计划](https://www.chaincatcher.com/article/2075376) - 该计划将允许开发人员探索 DeFi 和 NFT 解决方案的新领域，每个成功的提案都有资格获得高达 5 万美元的 ROSE 代币.
 - 2022/06/13 [Dawn Song参与consensus 2022共识大会并介绍Oasis](https://twitter.com/OasisNetwork_CN/status/1536022776443596801?s=20&t=4ju0vJgGNrH_NefMZ4gt6g) - 北京时间6月12日凌晨，OasisLabs创始Dawn Song在Consensus2022共识大会主会场介绍Oasis如何向用户提供数据主权和隐私解决方案。
 - 2022/06/02 [Oasis Bloom黑客松获奖名单出炉](https://medium.com/@OasisNetworkCN/%E7%BE%A4%E9%9B%84%E9%80%90%E9%B9%BF-7%E4%B8%AA%E9%A1%B9%E7%9B%AE%E8%84%B1%E9%A2%96%E8%80%8C%E5%87%BA-oasis-bloom%E9%BB%91%E5%AE%A2%E6%9D%BE%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95%E5%87%BA%E7%82%89-6703c8bc6c93) - 今年3月份，Oasis Bloom黑客松活动拉开帷幕，作为Oasis生态迄今为止最大规模的黑客松活动，开发者可以围绕DiFi、GameFi等主题基于Oasis Emerald ParaTime构建，赢取高达20万美元的奖金池。
