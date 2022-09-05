@@ -53,6 +53,9 @@
     - [04更新节点证书](./dev_support/node/zer0stab/04节点维护/04更新节点证书.md)
     - [05关闭节点](./dev_support/node/zer0stab/04节点维护/05关闭节点.md)
     - [节点故障排除](./dev_support/node/zer0stab/节点故障排除.md)
+- 开发者资源
+  - [Emerald](./dev_support/paratime/)
+  - [Sapphire]()
 - [Gas设置](./dev_support/Gas设置/Gas设置.md)
 - [Oasis与Emerald之间的ROSE划转](./dev_support/Oasis与Emerald之间的ROSE划转/Oasis与Emerald之间的ROSE划转.md)
 
