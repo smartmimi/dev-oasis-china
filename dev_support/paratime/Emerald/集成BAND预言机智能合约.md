@@ -1,10 +1,10 @@
-# 集成 BAND 预言机智能合约
+# 集成BAND预言机智能合约
 
 本指南将解释如何从 Emerald 上的另一个 Solidity 智能合约查询 Band Protocol 参考数据智能合约。****
 
-### ****什么是****Band****协议？****
+### **什么是 Band 协议？**
 
-[Band Protocol](https://bandprotocol.com/)是一个跨链数据预言机平台，将现实世界的数据和 API 聚合并连接到智能合约。[您可以在此处](https://docs.bandchain.org/)阅读有关该协议的具体细节的更多信息 。****
+[Band Protocol](https://bandprotocol.com/)是一个跨链数据预言机平台，将现实世界的数据和 API 聚合并连接到智能合约。您可以在[此处](https://docs.bandchain.org/)阅读有关该协议的具体细节的更多信息 。
 
 ### 部署Oracle
 
@@ -12,7 +12,7 @@
 2. 使用编译器版本 `0.6.11` 编译合约。
 3. 切换到 Remix 的 Deploy 选项卡。
     1. 在左上角的 Environment 下拉菜单中选择“Injected Web3”以连接 Metamask。
-    2. 1. 确保 Metamask 已连接到 Emerald（测试网/主网）网络。[您可以在此处](https://docs.oasis.dev/general/manage-tokens/how-to-transfer-rose-into-evm-paratime#metamask)阅读有关将 Emerald 网络添加到 Metamask的信息。
+    2. 确保 Metamask 已连接到 Emerald（测试网/主网）网络。
     
     ![Untitled](集成BAND预言机智能合约/Untitled.png)
     
@@ -22,7 +22,7 @@
 
 Remix的左下角会出现一个与合约交互的界面。
 
-### ****获得比率****
+### **获得比率**
 
 单击 `getPrice` 按钮将返回 WBTC 的当前美元价格。 该函数在Band引用数据合约上调用`getReferenceData(string memory_base, string memory_quote)`，传入“WBTC”和“USD”，表示WBTC为base，USD为报价。 返回的费率是基数/报价乘以 1e18。
 
@@ -38,18 +38,20 @@ Remix的左下角会出现一个与合约交互的界面。
 
 ![Untitled](集成BAND预言机智能合约/Untitled%203.png)
 
-### ****主网参考数据合约****
+### **主网参考数据合约**
 
-您可以在 0xDA7a001b254CD22e46d3eAB04d937489c93174C3 访问主网上的参考数据聚合器[合约](https://explorer.emerald.oasis.dev/address/0xDA7a001b254CD22e46d3eAB04d937489c93174C3/transactions)。****
+您可以在 0xDA7a001b254CD22e46d3eAB04d937489c93174C3 访问主网上的参考数据聚合器[合约](https://explorer.emerald.oasis.dev/address/0xDA7a001b254CD22e46d3eAB04d937489c93174C3/transactions)。
 
-### 可****参考数据****
+### **可参考数据**
 
-[您可以在此处查看波段标准数据集网站](https://data.bandprotocol.com/)上的可用参考数据。****
+[您可以在此处查看波段标准数据集网站](https://data.bandprotocol.com/)上的可用参考数据。
 
-### ****DemoOracle.sol 合约示例****
+### **DemoOracle.sol 合约示例**
 
 [DemoOracle.sol contract example in Remix](https://remix.ethereum.org/?#code=cHJhZ21hIHNvbGlkaXR5IDAuNi4xMTsKcHJhZ21hIGV4cGVyaW1lbnRhbCBBQklFbmNvZGVyVjI7CgppbnRlcmZhY2UgSVN0ZFJlZmVyZW5jZSB7CiAgICAvLy8gQSBzdHJ1Y3R1cmUgcmV0dXJuZWQgd2hlbmV2ZXIgc29tZW9uZSByZXF1ZXN0cyBmb3Igc3RhbmRhcmQgcmVmZXJlbmNlIGRhdGEuCiAgICBzdHJ1Y3QgUmVmZXJlbmNlRGF0YSB7CiAgICAgICAgdWludDI1NiByYXRlOyAvLyBiYXNlL3F1b3RlIGV4Y2hhbmdlIHJhdGUsIG11bHRpcGxpZWQgYnkgMWUxOC4KICAgICAgICB1aW50MjU2IGxhc3RVcGRhdGVkQmFzZTsgLy8gVU5JWCBlcG9jaCBvZiB0aGUgbGFzdCB0aW1lIHdoZW4gYmFzZSBwcmljZSBnZXRzIHVwZGF0ZWQuCiAgICAgICAgdWludDI1NiBsYXN0VXBkYXRlZFF1b3RlOyAvLyBVTklYIGVwb2NoIG9mIHRoZSBsYXN0IHRpbWUgd2hlbiBxdW90ZSBwcmljZSBnZXRzIHVwZGF0ZWQuCiAgICB9CgogICAgLy8vIFJldHVybnMgdGhlIHByaWNlIGRhdGEgZm9yIHRoZSBnaXZlbiBiYXNlL3F1b3RlIHBhaXIuIFJldmVydCBpZiBub3QgYXZhaWxhYmxlLgogICAgZnVuY3Rpb24gZ2V0UmVmZXJlbmNlRGF0YShzdHJpbmcgbWVtb3J5IF9iYXNlLCBzdHJpbmcgbWVtb3J5IF9xdW90ZSkKICAgICAgICBleHRlcm5hbAogICAgICAgIHZpZXcKICAgICAgICByZXR1cm5zIChSZWZlcmVuY2VEYXRhIG1lbW9yeSk7CgogICAgLy8vIFNpbWlsYXIgdG8gZ2V0UmVmZXJlbmNlRGF0YSwgYnV0IHdpdGggbXVsdGlwbGUgYmFzZS9xdW90ZSBwYWlycyBhdCBvbmNlLgogICAgZnVuY3Rpb24gZ2V0UmVmZXJlbmNlRGF0YUJ1bGsoc3RyaW5nW10gbWVtb3J5IF9iYXNlcywgc3RyaW5nW10gbWVtb3J5IF9xdW90ZXMpCiAgICAgICAgZXh0ZXJuYWwKICAgICAgICB2aWV3CiAgICAgICAgcmV0dXJucyAoUmVmZXJlbmNlRGF0YVtdIG1lbW9yeSk7Cn0KCmNvbnRyYWN0IERlbW9PcmFjbGUgewogICAgSVN0ZFJlZmVyZW5jZSByZWY7CgogICAgdWludDI1NiBwdWJsaWMgcHJpY2U7CgogICAgY29uc3RydWN0b3IoSVN0ZFJlZmVyZW5jZSBfcmVmKSBwdWJsaWMgewogICAgICAgIHJlZiA9IF9yZWY7CiAgICB9CgogICAgZnVuY3Rpb24gZ2V0UHJpY2UoKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYpewogICAgICAgIElTdGRSZWZlcmVuY2UuUmVmZXJlbmNlRGF0YSBtZW1vcnkgZGF0YSA9IHJlZi5nZXRSZWZlcmVuY2VEYXRhKCJXQlRDIiwiVVNEIik7CiAgICAgICAgcmV0dXJuIGRhdGEucmF0ZTsKICAgIH0KCiAgICBmdW5jdGlvbiBnZXRNdWx0aVByaWNlcygpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDI1NltdIG1lbW9yeSl7CiAgICAgICAgc3RyaW5nW10gbWVtb3J5IGJhc2VTeW1ib2xzID0gbmV3IHN0cmluZ1tdKDIpOwogICAgICAgIGJhc2VTeW1ib2xzWzBdID0gIldCVEMiOwogICAgICAgIGJhc2VTeW1ib2xzWzFdID0gIkVUSCI7CgogICAgICAgIHN0cmluZ1tdIG1lbW9yeSBxdW90ZVN5bWJvbHMgPSBuZXcgc3RyaW5nW10oMik7CiAgICAgICAgcXVvdGVTeW1ib2xzWzBdID0gIlVTRCI7CiAgICAgICAgcXVvdGVTeW1ib2xzWzFdID0gIlVTRCI7CiAgICAgICAgSVN0ZFJlZmVyZW5jZS5SZWZlcmVuY2VEYXRhW10gbWVtb3J5IGRhdGEgPSByZWYuZ2V0UmVmZXJlbmNlRGF0YUJ1bGsoYmFzZVN5bWJvbHMscXVvdGVTeW1ib2xzKTsKCiAgICAgICAgdWludDI1NltdIG1lbW9yeSBwcmljZXMgPSBuZXcgdWludDI1NltdKDIpOwogICAgICAgIHByaWNlc1swXSA9IGRhdGFbMF0ucmF0ZTsKICAgICAgICBwcmljZXNbMV0gPSBkYXRhWzFdLnJhdGU7CgogICAgICAgIHJldHVybiBwcmljZXM7CiAgICB9CgogICAgZnVuY3Rpb24gc2F2ZVByaWNlKHN0cmluZyBtZW1vcnkgYmFzZSwgc3RyaW5nIG1lbW9yeSBxdW90ZSkgZXh0ZXJuYWwgewogICAgICAgIElTdGRSZWZlcmVuY2UuUmVmZXJlbmNlRGF0YSBtZW1vcnkgZGF0YSA9IHJlZi5nZXRSZWZlcmVuY2VEYXRhKGJhc2UscXVvdGUpOwogICAgICAgIHByaWNlID0gZGF0YS5yYXRlOwogICAgfQp9Cg==)
 
 ### ****Bandchain.js {#bandchain}****
 
 Band 还有一个 javascript 库，可以轻松地直接从 Javascript 或 Typescript 应用程序与 BandChain 进行交互。该库提供了方便发送交易、查询数据、OBI 编码和钱包管理的类和方法。[你可以在这里](https://docs.bandchain.org/client-library/bandchain.js/getting-started.html)阅读更多关于它的信息。
+
+Last updated on 8/22/2022
