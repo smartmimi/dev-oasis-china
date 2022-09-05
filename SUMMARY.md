@@ -54,8 +54,11 @@
     - [05关闭节点](./dev_support/node/zer0stab/04节点维护/05关闭节点.md)
     - [节点故障排除](./dev_support/node/zer0stab/节点故障排除.md)
 - 开发者资源
-  - [Emerald](./dev_support/paratime/)
-  - [Sapphire]()
+  - [Emerald](./dev_support/paratime/Emerald.md)
+    - [在Emerald上编写dapp](./dev_support/paratime/Emerald/在Emerald上编写dapp.md)
+    - [集成BAND预言机智能合约](./dev_support/paratime/Emerald/集成BAND预言机智能合约.md)
+  - [Sapphire](./dev_support/paratime/Sapphire.md)
+    - [为 Sapphire 创建 dapp](./dev_support/paratime/Sapphire/为Sapphire创建dapp.md)
 - [Gas设置](./dev_support/Gas设置/Gas设置.md)
 - [Oasis与Emerald之间的ROSE划转](./dev_support/Oasis与Emerald之间的ROSE划转/Oasis与Emerald之间的ROSE划转.md)
 
