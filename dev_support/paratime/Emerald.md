@@ -48,4 +48,4 @@ ParaTime将在链上释放代币以奖励参与的节点。这些代币将在每
 
 [**在Emerald上编写dapp**](./Emerald/在Emerald上编写dapp.md)
 
-[集成BAND预言机智能合约](./Emerald/集成BAND预言机智能合约.md)
+[**集成BAND预言机智能合约**](./Emerald/集成BAND预言机智能合约.md)

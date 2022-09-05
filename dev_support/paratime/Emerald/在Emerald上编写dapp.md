@@ -6,32 +6,26 @@
 
 ## Oasis 共识层 and Emerald ParaTime
 
-Oasis 网络由共识层和许多称为 ParaTimes 的第 2 层链组成（要了解更多信息，请查看[Oasis 网络概述](https://docs.oasis.dev/general/oasis-network/overview)一章）。Emerald 是实现以太坊虚拟机 (EVM) 的 ParaTime。
+Oasis 网络由共识层和许多称为 ParaTimes 的第 2 层链组成。Emerald 是实现以太坊虚拟机 (EVM) 的 ParaTime。
 
-Emerald 中的最小和预期阻塞时间是**6 秒**。任何 Emerald 交易都至少需要这个时间才能执行。
+Emerald 中的最小和预期区块时间是**6 秒**。任何 Emerald 交易都至少需要这个时间才能执行。
 
 原生 Oasis 地址是 Bech32 编码的 (例如`oasis1qpupfu7e2n6pkezeaw0yhj8mcem8anj64ytrayne`)
-而 Emerald 支持 Bech32 编码和以太坊兼容的十六进制编码地址(例如 `0x90adE3B7065fa715c7a150313877dF1d33e777D5`). 用于签署交易的底层算法是共识层上的[Ed25519以及 Emerald 中的Ed25519](https://en.wikipedia.org/wiki/EdDSA#Ed25519)和[ECDSA](https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm)。Ed25519 方案主要由 Emerald 计算节点用于管理其计算奖励。要在 Emerald 上签署与 dapp 相关的交易，您可能需要使用 ECDSA，因为这是以太坊钱包和库支持的事实上的方案。
+而 Emerald 支持 Bech32 编码和以太坊兼容的十六进制编码地址(例如 `0x90adE3B7065fa715c7a150313877dF1d33e777D5`). 用于签署交易的底层算法是共识层上的[Ed25519]以及Emerald 中的[Ed25519](https://en.wikipedia.org/wiki/EdDSA#Ed25519)和[ECDSA](https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm)。Ed25519 方案主要由 Emerald 计算节点用于管理其计算奖励。要在 Emerald 上签署与 dapp 相关的交易，您可能需要使用 ECDSA，因为这是以太坊钱包和库支持的事实上的方案。
 
-最后，不允许 ParaTimes 直接访问存储在共识层地址中的代币。您需要将代币从您的共识账户存入 Emerald **。**请参阅[如何将 ROSE 转移到 Emerald ParaTime](https://docs.oasis.dev/general/manage-tokens/how-to-transfer-rose-into-evm-paratime)章节以了解更多信息。
+最后，不允许 ParaTimes 直接访问存储在共识层地址中的代币。您需要将代币从您的共识账户**存入** Emerald 。
 
 ## 测试网和主网
 
-与其他一些区块链类似，Oasis 网络目前有两个主要的公共部署：主[网](https://docs.oasis.dev/general/oasis-network/network-parameters)和[测试网](https://docs.oasis.dev/general/foundation/testnet/)。原生代币分别称为 ROSE 和 TEST。每个网络环境都有其独特的状态、一组不同的验证器和 ParaTime。主网的状态被认为是无限期不可变的，而测试网上的数据将来可能会被擦除。
+与其他一些区块链类似，Oasis 网络目前有两个主要的公共部署：[主网](https://docs.oasis.dev/general/oasis-network/network-parameters)和[测试网](https://docs.oasis.dev/general/foundation/testnet/)。原生代币分别称为 ROSE 和 TEST。每个网络环境都有其独特的状态、一组不同的验证器和 ParaTime。主网的状态被认为是无限期不可变的，而测试网上的数据将来可能会被擦除。
 
-Emerald ParaTime 的部署方式类似：[Emerald 主](https://docs.oasis.dev/general/developer-resources/emerald-paratime/#mainnet)网部署在 Oasis 主网网络上，而[Emerald 测试](https://docs.oasis.dev/general/developer-resources/emerald-paratime/#testnet)网部署在 Oasis 测试网网络上。主网上的Emerald 状态是稳定的。测试网除了运行不稳定版本的代码和容易出现错误外，还可以在 Emerald ParaTime 层或 Oasis 测试网网络层面上故意抹掉状态。。
+Emerald ParaTime 的部署方式类似：[Emerald 主网](https://docs.oasis.dev/general/developer-resources/emerald-paratime/#mainnet)部署在 Oasis 主网网络上，而[Emerald 测试网](https://docs.oasis.dev/general/developer-resources/emerald-paratime/#testnet)部署在 Oasis 测试网网络上。主网上的Emerald 状态是稳定的。测试网除了运行不稳定版本的代码和容易出现错误外，还可以在 Emerald ParaTime 层或 Oasis 测试网网络层面上故意抹掉状态。。
 
-:::danger **永远不要在测试网上部署生产服务**
-
+> 警告 **永远不要在测试网上部署生产服务**  
 因为将来可以擦除测试网Testnet 状态，所以您**永远不应该在 Testnet 上部署生产服务**！
 
-:::
-
-:::tip提示
-
+> 提示  
 出于测试目的，请访问我们的[Testnet 水龙头](https://faucet.testnet.oasis.dev/)以获取一些 TEST，然后您可以在 Emerald Testnet 上使用它们来支付 gas 费用。水龙头支持将 TEST 发送到您的共识层地址或您在 ParaTime 内的地址。
-
-:::
 
 ## 本地化运行私有 Oasis 网络
 
@@ -86,34 +80,21 @@ Listening on <http://localhost:8545> and ws://localhost:8546
 
 ```
 
-Those familiar with local dapp environments will find the output above similar
-to `geth --dev` or `ganache-cli` commands or the `geth-dev-assistant` npm
-package. [emerald-dev](https://hub.docker.com/r/oasisprotocol/emerald-dev) will spin up a private Oasis Network locally, generate
-and populate test accounts and make the following Web3 endpoints available for
-you to use:
-
 熟悉本地 dapp 环境的人会发现上面的输出类似于`geth --dev`or`ganache-cli`命令或`geth-dev-assistant`npm 包。[emerald-dev](https://hub.docker.com/r/oasisprotocol/emerald-dev)将在本地启动一个私有 Oasis 网络，生成和填充测试帐户，并使以下 Web3 端点可供您使用：
 
 - `http://localhost:8545`
 - `ws://localhost:8546`
 
-:::tip提示
-
+> 提示  
 如果您喜欢每次都使用相同的助记词（例如，出于测试目的）或只填充一个钱包，请使用`-to`标志并传递助记词或钱包地址。例如
 
 ```
 docker run -it -p8545:8545 -p8546:8546 oasisprotocol/emerald-dev -to "bench remain brave curve frozen verify dream margin alarm world repair innocent"
 docker run -it -p8545:8545 -p8546:8546 oasisprotocol/emerald-dev -to "0x75eCF0d4496C2f10e4e9aF3D4d174576Ee9010E2"
-
 ```
 
-:::
-
-:::danger危险
-
+> 危险  
 [emerald-dev](https://hub.docker.com/r/oasisprotocol/emerald-dev)以临时模式运行。退出 Docker 容器后，任何智能合约和钱包余额都将丢失！
-
-:::
 
 ## 通过Hardhat在Emerald上创建dapp
 
@@ -150,11 +131,6 @@ Changing greeting from 'Hello, world!' to 'Hola, mundo!'
 ```
 
 Hardhat已经配备了一个内置的EVM，每次我们在没有参数的情况下调用`hardhat test`时，它都会从头开始启动。它用ETH填充了20个账户，并将它们注册到测试中使用的 [ethers.js](https://docs.ethers.io/v5/) 实例。
-
-Next, let's look at how to configure Hardhat for Emerald. For convenience, we
-assign the `PRIVATE_KEY` environment variable a hex-encoded private key of your
-Emerald wallet containing tokens to pay for gas fees. If you are running
-[emerald-dev](https://hub.docker.com/r/oasisprotocol/emerald-dev), use any of the five generated private keys.
 
 接下来，让我们看看如何为 Emerald 配置 Hardhat。为方便起见，我们为环境变量分配`PRIVATE_KEY`一个十六进制编码的 Emerald 钱包私钥，其中包含用于支付Gas费的代币。如果您正在运行 [emerald-dev](https://hub.docker.com/r/oasisprotocol/emerald-dev)，请使用五个生成的私钥中的任何一个。
 
@@ -195,11 +171,8 @@ mocha: {
 
 ```
 
-:::info
-
+> 提示  
 `geth --dev`和`ganache-cli`工具使用所谓的“即时挖掘”模式。在这种模式下，当内存池中发生新事务时，会立即挖掘一个新块。Oasis Mainnet 和 Testnet Networks 和[emerald-dev](https://hub.docker.com/r/oasisprotocol/emerald-dev)都不支持这种模式，并且至少在 1 秒块时间过去之后，新块将始终被挖掘。
-
-:::
 
 现在，通过选择我们上面配置的`emerald_local`网络，将合同部署到本地的emerald-dev Docker容器，并运行测试。
 
@@ -484,11 +457,8 @@ Remix 是一种流行的 Web IDE，用于在以太坊网络上快速开发、部
 
 ![Untitled](在Emerald上编写dapp/Untitled%205.png)
 
-:::info
-
+> 提示  
 有时，gas limit 估计函数可能会从所需的值中计算出稍低的值。在这种情况下，请尝试手动将 gas 限制提高 10% 或 20%。
-
-:::
 
 恭喜！现在您可以开始在 Oasis Emerald 区块链上开发自己的智能合约了！[如果您有任何问题，请随时在#emerald-paratime Discord 频道](https://discord.gg/pJdWeVtmHT)上与我们分享。
 
@@ -503,9 +473,6 @@ Emerald 验证器，类似于以太坊验证器，按 gas 价格订购交易的�
 最后，考虑将 Hardhat/Truffle 配置文件中的 gasPrice 参数增加一小部分（例如 10% 或 20%）。 这将需要你钱包中的更多 ROSE 来部署合约，但你也会增加你的交易被包含在区块中的机会。
 
 ### 合同执行失败，该如何调试出问题？
-
-If you are using Testnet or Mainnet, try to debug your transaction by finding
-it on the Emerald block explorer ([Mainnet](https://explorer.emerald.oasis.dev/), [Testnet](https://testnet.explorer.emerald.oasis.dev/)):
 
 如果您使用的是测试网或主网，请尝试通过在 Emerald 区块浏览器（主网、测试网）上找到它来调试您的交易：
 
