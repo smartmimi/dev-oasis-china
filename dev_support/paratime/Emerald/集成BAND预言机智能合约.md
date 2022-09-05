@@ -14,11 +14,11 @@
     1. 在左上角的 Environment 下拉菜单中选择“Injected Web3”以连接 Metamask。
     2. 1. 确保 Metamask 已连接到 Emerald（测试网/主网）网络。[您可以在此处](https://docs.oasis.dev/general/manage-tokens/how-to-transfer-rose-into-evm-paratime#metamask)阅读有关将 Emerald 网络添加到 Metamask的信息。
     
-    ![Untitled](%E9%9B%86%E6%88%90%20BAND%20%E9%A2%84%E8%A8%80%E6%9C%BA%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%20e576ae7f3c5344729de4d246a5d09c55/Untitled.png)
+    ![Untitled](集成BAND预言机智能合约/Untitled.png)
     
 4.  将 Emerald Testnet Band 参考数据聚合器合约地址 ( `0x61704EFB8b8120c03C210cAC5f5193BF8c80852a`) 输入到`DemoOracle`构造函数并部署合约。您可以在主网上访问参考数据聚合器合约`0xDA7a001b254CD22e46d3eAB04d937489c93174C3`。
 
-![Untitled](%E9%9B%86%E6%88%90%20BAND%20%E9%A2%84%E8%A8%80%E6%9C%BA%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%20e576ae7f3c5344729de4d246a5d09c55/Untitled%201.png)
+![Untitled](集成BAND预言机智能合约/Untitled%201.png)
 
 Remix的左下角会出现一个与合约交互的界面。
 
@@ -26,7 +26,7 @@ Remix的左下角会出现一个与合约交互的界面。
 
 单击 `getPrice` 按钮将返回 WBTC 的当前美元价格。 该函数在Band引用数据合约上调用`getReferenceData(string memory_base, string memory_quote)`，传入“WBTC”和“USD”，表示WBTC为base，USD为报价。 返回的费率是基数/报价乘以 1e18。
 
-![Untitled](%E9%9B%86%E6%88%90%20BAND%20%E9%A2%84%E8%A8%80%E6%9C%BA%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%20e576ae7f3c5344729de4d246a5d09c55/Untitled%202.png)
+![Untitled](集成BAND预言机智能合约/Untitled%202.png)
 
 请注意，`DemoOracle`合同只返回最新的汇率，但参考合同也返回基准和报价参考的最后一次更新的值。
 
@@ -36,7 +36,7 @@ Remix的左下角会出现一个与合约交互的界面。
 
 该`savePrice`函数会将传递给它的任何基本/报价率保存在名为 的存储变量中`price`。此存储数据仅在调用“savePrice”函数时才会更新，因此`price`除非重复调用此函数，否则保存的值将过时。
 
-![Untitled](%E9%9B%86%E6%88%90%20BAND%20%E9%A2%84%E8%A8%80%E6%9C%BA%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%20e576ae7f3c5344729de4d246a5d09c55/Untitled%203.png)
+![Untitled](集成BAND预言机智能合约/Untitled%203.png)
 
 ### ****主网参考数据合约****
 

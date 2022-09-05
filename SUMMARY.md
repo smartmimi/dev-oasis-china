@@ -19,7 +19,6 @@
 
 ### 技术支持
 
-- [技术支持概览](./dev_support/概览.md)
 - [FAQ](./dev_support/FAQ.md)
 - 节点搭建
   - [节点搭建指导版](./dev_support/node/节点搭建指导版.md)

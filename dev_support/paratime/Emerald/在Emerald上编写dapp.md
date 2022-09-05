@@ -237,9 +237,9 @@ No need to generate any newer typings.
 
 恭喜，您刚刚将您的第一个智能合约部署到公共 Emerald 测试网网络！ 如果您不确定您的合约是否已成功部署，您可以在 Emerald 区块浏览器（主网、测试网）上监控交易。 该工具为所有 Emerald 账户、区块、交易建立索引，甚至提供简洁的用户界面来浏览 ERC20 代币和 ERC721 NFT 等 ETH 特定信息。
 
-![Untitled](%E5%9C%A8%20Emerald%20%E4%B8%8A%E7%BC%96%E5%86%99%20dapp%205645b15f10644d7b9a86cf62336e0fc8/Untitled.png)
+![Untitled](在Emerald上编写dapp/Untitled.png)
 
-![Untitled](%E5%9C%A8%20Emerald%20%E4%B8%8A%E7%BC%96%E5%86%99%20dapp%205645b15f10644d7b9a86cf62336e0fc8/Untitled%201.png)
+![Untitled](在Emerald上编写dapp/Untitled%201.png)
 
 最后，通过选择`emerald_mainnet` 网络和相应的私钥，我们可以将合约部署在主网上：
 
@@ -472,17 +472,17 @@ Remix 是一种流行的 Web IDE，用于在以太坊网络上快速开发、部
 
 第一次打开 Remix 时，它会自动创建一个示例项目。让我们打开其中一个合约并在“Solidity 编译器”选项卡中编译它。
 
-![Untitled](%E5%9C%A8%20Emerald%20%E4%B8%8A%E7%BC%96%E5%86%99%20dapp%205645b15f10644d7b9a86cf62336e0fc8/Untitled%202.png)
+![Untitled](在Emerald上编写dapp/Untitled%202.png)
 
-![Untitled](%E5%9C%A8%20Emerald%20%E4%B8%8A%E7%BC%96%E5%86%99%20dapp%205645b15f10644d7b9a86cf62336e0fc8/Untitled%203.png)
+![Untitled](在Emerald上编写dapp/Untitled%203.png)
 
 接下来，在“Deploy and Run Transactions”选项卡中，选择“Injected Web3”环境。将出现一个 MetaMask 弹出窗口，您必须将一个或多个帐户与 Remix 连接。连接成功后，单击“部署”按钮。MetaMask 弹出窗口再次出现，您必须查看交易、gas 选项并最终确认交易。
 
-![Untitled](%E5%9C%A8%20Emerald%20%E4%B8%8A%E7%BC%96%E5%86%99%20dapp%205645b15f10644d7b9a86cf62336e0fc8/Untitled%204.png)
+![Untitled](在Emerald上编写dapp/Untitled%204.png)
 
 如果一切顺利，您的交易将使用 MetaMask 中的选定帐户和相应的 Emerald 网络进行部署。
 
-![Untitled](%E5%9C%A8%20Emerald%20%E4%B8%8A%E7%BC%96%E5%86%99%20dapp%205645b15f10644d7b9a86cf62336e0fc8/Untitled%205.png)
+![Untitled](在Emerald上编写dapp/Untitled%205.png)
 
 :::info
 
@@ -509,8 +509,8 @@ it on the Emerald block explorer ([Mainnet](https://explorer.emerald.oasis.dev/)
 
 如果您使用的是测试网或主网，请尝试通过在 Emerald 区块浏览器（主网、测试网）上找到它来调试您的交易：
 
-![Untitled](%E5%9C%A8%20Emerald%20%E4%B8%8A%E7%BC%96%E5%86%99%20dapp%205645b15f10644d7b9a86cf62336e0fc8/Untitled%206.png)
+![Untitled](在Emerald上编写dapp/Untitled%206.png)
 
 在某些情况下，Emerald 区块浏览器上的交易结果可能会卡在 `Error: (Awaiting internal transactions for reason)`。 在这种情况下或其他共识层 ↔ ParaTime 问题的情况下，尝试在 Oasis Scan（主网、测试网）上找到您的 Emerald 交易，这主要是一个共识层浏览器，但也提供了对 ParaTime 交易的一些内省。 一旦您发现失败的 Emerald 交易，`Status` 字段应包含更详细的错误描述，例如：
 
-![Untitled](%E5%9C%A8%20Emerald%20%E4%B8%8A%E7%BC%96%E5%86%99%20dapp%205645b15f10644d7b9a86cf62336e0fc8/Untitled%207.png)
+![Untitled](在Emerald上编写dapp/Untitled%207.png)
