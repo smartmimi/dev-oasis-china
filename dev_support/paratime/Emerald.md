@@ -1,6 +1,6 @@
 # Emerald 运行时（ParaTime）
 
-Emerald ParaTime 是我们的官方 EVM 兼容 ParaTime，提供具有完全 EVM 兼容性的智能合约环境。
+Emerald ParaTime是我们的官方EVM兼容ParaTime，提供具有完全EVM兼容性的智能合约环境。
 
 作为Oasis网络的官方EVM兼容ParaTime，Emerald允许：
 
@@ -10,13 +10,13 @@ Emerald ParaTime 是我们的官方 EVM 兼容 ParaTime，提供具有完全 EVM
 - 低成本——比以太坊低 99% 以上的费用
 - 跨链桥——实现跨链互操作性（即将推出）
 
-如果您正在寻找具备加密性的 EVM，请查看[Sapphire ParaTime](https://docs.oasis.dev/general/developer-resources/sapphire-paratime/).
+如果您正在寻找具备加密性的 EVM，请查看[Sapphire ParaTime](/dev_support/paratime/Sapphire.md).
 
 ## ParaTime 激励机制
 
 Emerald是完全去中心化的，节点运营商分布在全球各地，Oasis ROSE将是用于支付 Gas 费的原生代币。
 
-ParaTime将在链上释放代币以奖励参与的节点。这些代币将在每个纪元释放，奖励为每个实体每个时期 3 个 ROSE 代币。
+ParaTime将在链上释放代币以奖励参与的节点。这些代币将在每个纪元释放，奖励为每个实体每个纪元 3 个 ROSE 代币。
 
 目前正在以每小时一个的速度生产纪元。每个节点有大约30%的机会被初级委员会选中，以获得奖励。因此，一个节点实体每天可以赚取24个ROSE代币，每月720个ROSE代币。
 
@@ -46,8 +46,6 @@ ParaTime将在链上释放代币以奖励参与的节点。这些代币将在每
 
 ## 另见
 
-<DocCard item={ findSidebarItem(‘manage-tokens/how-to-transfer-rose-into-evm-paratime’) } />
+[**在Emerald上编写dapp**](./Emerald/在Emerald上编写dapp.md)
 
-[**在 Emerald 上编写 dapp**](Emerald%20%E8%BF%90%E8%A1%8C%E6%97%B6%EF%BC%88ParaTime%EF%BC%89%20aad2bd882b42449094d725dc7bc0e9e0/%E5%9C%A8%20Emerald%20%E4%B8%8A%E7%BC%96%E5%86%99%20dapp%205645b15f10644d7b9a86cf62336e0fc8.md)
-
-[集成 BAND 预言机智能合约](Emerald%20%E8%BF%90%E8%A1%8C%E6%97%B6%EF%BC%88ParaTime%EF%BC%89%20aad2bd882b42449094d725dc7bc0e9e0/%E9%9B%86%E6%88%90%20BAND%20%E9%A2%84%E8%A8%80%E6%9C%BA%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%20e576ae7f3c5344729de4d246a5d09c55.md)
+[集成BAND预言机智能合约](./Emerald/集成BAND预言机智能合约.md)
