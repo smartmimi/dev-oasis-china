@@ -172,7 +172,7 @@ The contract now has balance: 42.
 
 以前，它说输出的是“0x2a”，但现在它输出“0x0”。
 
-显然，该槽确实包含数据，否则无法返回合同余额。
+显然，该槽确实包含数据，否则无法返回合约余额。
 
 这里发生的情况是 Web3 网关没有用于解密存储槽的密钥，因此返回了一个默认值。
 
@@ -184,7 +184,7 @@ The contract now has balance: 42.
 
 移植现有的 Eth 应用程序很酷，并且已经可以提供诸如保护 MEV 之类的好处。
 
-然而，从头开始考虑机密性可以解锁一些真正新颖的 dapp 并提供 [更高级别的安全性](https://docs.oasis.dev/general/developer-resources/sapphire-paratime/writing-dapps-on-sapphire#writing-secure-dapps)。
+然而，从头开始考虑机密性可以解锁一些真正新颖的 dapp 并提供 [更高级别的安全性](/dev_support/paratime/Sapphire/为Sapphire创建dapp.md)。
 
 一个利用机密性的简单但有用的 dapp 是 [dead person's switch](https://en.wikipedia.org/wiki/Dead_man's_switch)，如果操作员未能在较长时间内启动，它揭示了一个秘密（假设是数据宝库的加密密钥）。
 
