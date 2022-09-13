@@ -91,7 +91,7 @@ The contract now has balance: 42
 很棒！这将是我们机密部署的基准。
 ​
 ### 移植到 Sapphire (机密 EVM)
-​#### 获得 sROSE
+#### 获得 sROSE
 
 现在到了一个有意思的部分。如同在 Emerald 上一样，我们需要配置 Sapphire 网络并获得测试代币。
 
