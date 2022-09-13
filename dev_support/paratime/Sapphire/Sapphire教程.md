@@ -2,14 +2,13 @@
 
 ## 总览
 
-在本教程中，你将在 10 分钟内移植一个 Eth 项目（或退款），然后继续部署一个需要机密性支持的独特 dapp。
+在本教程中，你将在 10 分钟内移植一个 Eth 项目，然后继续部署一个需要机密性支持的独特 dapp。
 
 在本教程结束时，你将可以轻松设置你的 Eth 开发环境来使用 Sapphire，并知道如何以及何时使用机密性。
 
 本教程的预计完成时间为 30 分钟。
 ​
 ## 移植一个 ETH 项目
-​
 ### 设置
 ​
 从安装 [truffle](https://github.com/trufflesuite/truffle#install) 开始，​然后，在终端中运行如下命令：
@@ -22,9 +21,7 @@ git init
 git add :/ && git commit -m "Initial commit"
 pnpm init && pnpm add -D @truffle/hdwallet-provider # npm or yarn also works
 ```
-​
 ### 部署到 Emerald (非机密 EVM)
-​
 #### 获取 eROSE
 ​
 为了在 Emerald 测试网中部署项目，我们需要获得一些 eROSE 代币。
@@ -64,11 +61,7 @@ index 68d534c..15c671d 100644
 ​
    // Set default mocha options here, use special reporters etc.
 ```
-​
-#### Truffle 相关操作
-​
-You'll want a script to run some methods on the contract.
-Pop open your favorite editor and jam out the following stanza:
+​#### Truffle 相关操作
 
 你需要一个脚本来在合约上运行一些方法。打开你最喜欢的编辑器并插入以下字段：
 
@@ -76,7 +69,7 @@ Pop open your favorite editor and jam out the following stanza:
 ​
 ```
 把它保存到 `scripts/exercise-contract.js`。我们稍后会用到它。
-​
+
 接下来，你可以运行以下命令并查看正在部署的合约。
 
 ```
@@ -98,17 +91,15 @@ The contract now has balance: 42
 这将是我们机密部署的基准。
 ​
 ### 移植到 Sapphire (机密 EVM)
-​
-#### 获得 sROSE
+​#### 获得 sROSE
 ​
 现在到了一个有意思的部分。如同在 Emerald 上一样，我们需要配置 Sapphire 网络并获得测试代币。
 
-点击唯一的[Oasis 测试网水龙头](https://faucet.testnet.oasis.dev/)，这次选择“Sapphire”。提交表格和你的地址。
+点击唯一的[Oasis 测试网水龙头](https://faucet.testnet.oasis.dev/)，这次选择“Sapphire”。提交表格。
 ​
 #### 将 Sapphire 测试网添加到 Truffle
 ​
-And another diff for your applying pleasure:
-另一个不同之处在于你的应用乐趣：
+你提交的另一个不同之处在于：
 ​
 ```diff
 diff --git a/truffle-config.js b/truffle-config.js
@@ -131,11 +122,7 @@ index 7af2f42..0cd9d36 100644
 ​
 #### 移植到 Sapphire
 ​
-You'll need to grab the Sapphire compatibility library ([@oasisprotocol/sapphire-paratime](https://www.npmjs.com/package/@oasisprotocol/sapphire-paratime)), so make that happen by issuing a
-
-
-这就是事情开始变得有趣的地方。
-我们将用两行代码为这个入门项目添加机密性。
+这就是事情开始变得有趣的地方。我们将用两行代码为这个入门项目添加机密性。
 ​​​
 你需要获取 Sapphire 兼容性库 ([@oasisprotocol/sapphire-paratime](https://www.npmjs.com/package/@oasisprotocol/sapphire-paratime))，因此通过发出
 
@@ -144,7 +131,7 @@ pnpm add @oasisprotocol/sapphire-paratime # npm also works
 ```
 
 到目前为止，一切都很好。
-通过将此行添加到 `truffle-config.js` 的顶部，不导入它：
+现在通过将此行添加到 `truffle-config.js` 的顶部来导入它：
 
 ```
 const sapphire = require('@oasisprotocol/sapphire-paratime');
@@ -169,7 +156,7 @@ index 0cd9d36..7db7cf8 100644
 
 这个 `wrap` 函数可以使用你拥有的任何类型的提供者或签名者，并将其转换为与 Sapphire 和机密性一起使用的提供者或签名者。
 
-在大多数情况下，封装你的签名者/提供者是让你的 dapp 在 Sapphire 上运行的最少需要做的事情，但这并不是一个完整的故事，因为未经修改的合约可能会通过正常操作泄漏状态。
+在大多数情况下，封装你的签名者/提供者是让你的 dapp 在 Sapphire 上运行的最少需要做的事情，但这并不一个完整，因为未经修改的合约可能会通过正常操作泄漏状态。
 ​
 接下来是我们一直期待的事情：
 
@@ -198,7 +185,7 @@ The contract now has balance: 42.
 
 移植现有的 Eth 应用程序很酷，并且已经可以提供诸如保护 MEV 之类的好处。
 
-然而，从头开始考虑机密性可以解锁一些真正新颖的 dapp 并提供 [更高级别的安全性](https://docs.oasis.dev/general/developer-resources/sapphire-paratime/writing-dapps-on -sapphire#writing-secure-dapps）。
+然而，从头开始考虑机密性可以解锁一些真正新颖的 dapp 并提供 [更高级别的安全性](https://docs.oasis.dev/general/developer-resources/sapphire-paratime/writing-dapps-on-sapphire#writing-secure-dapps)。
 ​
 一个利用机密性的简单但有用的 dapp 是 [dead person's switch](https://en.wikipedia.org/wiki/Dead_man's_switch)，如果操作员未能在较长时间内启动，它揭示了一个秘密（假设是数据宝库的加密密钥）。
 
@@ -209,10 +196,7 @@ The contract now has balance: 42.
 1.创建并进入一个新的目录
 2.​ 输入 `npx hardhat`创建一个 TypeScript 项目，安装`@nomicfoundation/hardhat-toolbox`及其依赖。
 ​
-### 添加 Sapphire 测试网 Hardhat
-​
-Open up your `hardhat.config.ts` and drop in these lines.
-They should remind you a lot about what happened with Truffle.
+### 添加 Sapphire 测试网到 Hardhat
 
 打开你的 `hardhat.config.ts` 并放入这些行。它们会提醒你很多关于 Truffle 运行的情况。
 ​
@@ -240,12 +224,11 @@ index 414e974..49c95f9 100644
 ```
 ​
 ### 获得合约
-​
-While you're there, also place [run-vigil.ts](https://github.com/oasisprotocol/sapphire-paratime/blob/main/examples/hardhat/scripts/run-vigil.ts) into `scripts/run-vigil.ts`. We'll need that later.
 
 这是一个 Sapphire 教程，而且你已经是 Solidity 专家，所以我们不会解释过多合约的细节来让你感到厌烦。
-首先将 [Vigil.sol](https://github.com/oasisprotocol/sapphire-paratime/blob/main/examples/hardhat/contracts/Vigil.sol) 粘贴到 `contracts/Vigil.sol` 中。
-​​​
+
+首先将 [Vigil.sol](https://github.com/oasisprotocol/sapphire-paratime/blob/main/examples/hardhat/contracts/Vigil.sol) 粘贴到 `contracts/Vigil.sol` 中。​​​
+
 同时，再将 [run-vigil.ts](https://github.com/oasisprotocol/sapphire-paratime/blob/main/examples/hardhat/scripts/run-vigil.ts) 放入 `scripts/run-vigil.ts`。 我们稍后会需要它。
 ​
 #### Vigil.sol, 有趣的部分
@@ -257,24 +240,24 @@ While you're there, also place [run-vigil.ts](https://github.com/oasisprotocol/s
     bytes[] private _secrets;
 ```
 
-* `_metas` 被标记为 `public` 可见性，因此尽管状态本身被加密并且不能直接读取，Solidity 会生成一个 getter 来为你进行解密。
-* `_secrets` 是 `private`，因此是真正的秘密； 只有合约才能访问此映射中包含的数据。
-​
+- `_metas` 被标记为 `public` 可见性，因此尽管状态本身被加密并且不能直接读取，Solidity 会生成一个 getter 来为你进行解密。
+- `_secrets` 是 `private`，因此是真正的秘密； 只有合约才能访问此映射中包含的数据。
+
 而我们最关心的方法是：
 
-* `createSecret`，向 `_metas` 和 `_secrets` 添加一个条目。
-* `revealSecret`，它作为 `_secrets` 包含的数据的访问控制的 getter。 由于受信任的执行和机密性，揭示秘密的唯一方法是执行一直持续到函数结束并且不恢复。
-​​​
+- `createSecret`，向 `_metas` 和 `_secrets` 添加一个条目。
+- `revealSecret`，它作为 `_secrets` 包含的数据的访问控制的 getter。 由于受信任的执行和机密性，揭示秘密的唯一方法是执行一直持续到函数结束并且不恢复。
+
 如果你真的打算使用这个东西，其余的也方法很有用，并且它们证明了为 Sapphire 开发与为 Ethereum 开发基本相同。你甚至可以针对 Hardhat network 'n jazz 编写测试。
 ​
 ### 运行合约
 ​
 首先，让我们看看实际发生了什么。
 ​​​
-在文件的顶部，有我们的 import，`@oasisprotocol/sapphire-paratime`。
+在文件的顶部，有我们的 import：`@oasisprotocol/sapphire-paratime`。
 
 与 Truffle 不同，我们必须“手动”包装签名者，因为 Hardhat 配置只需要一个私钥。 我们在 `main` 的顶部执行此操作。
-​​​
+
 部署合约后，我们可以创建一个 secret，检查它是否不可读，稍等片刻，然后检查它是否变得可读。那就太酷了！
 ​​​
 好吧，让我们“运行”来实现它
