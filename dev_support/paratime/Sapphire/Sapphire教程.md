@@ -23,7 +23,7 @@ pnpm init && pnpm add -D @truffle/hdwallet-provider # npm or yarn also works
 ```
 ### 部署到 Emerald (非机密 EVM)
 #### 获取 eROSE
-​
+
 为了在 Emerald 测试网中部署项目，我们需要获得一些 eROSE 代币。
 
 前往 [Oasis 测试网水龙头](https://faucet.testnet.oasis.dev/) ，在下拉框中选择“Emerald”，下方填入你的地址（0x开头）。
@@ -31,9 +31,9 @@ pnpm init && pnpm add -D @truffle/hdwallet-provider # npm or yarn also works
 提交申请并等待一段时间，你才能收到 eROSE 代币。
 ​
 #### 将 Emerald 测试网添加到 Truffle
-​
+
 将此补丁应用于 `truffle-config.js`:
-​
+
 ```diff
 diff --git a/truffle-config.js b/truffle-config.js
 index 68d534c..15c671d 100644
@@ -87,18 +87,17 @@ The balance storage slot contains 0x2a.
 The contract now has balance: 42
 ```
 ​
-很棒！
-这将是我们机密部署的基准。
+很棒！这将是我们机密部署的基准。
 ​
 ### 移植到 Sapphire (机密 EVM)
 ​#### 获得 sROSE
-​
+
 现在到了一个有意思的部分。如同在 Emerald 上一样，我们需要配置 Sapphire 网络并获得测试代币。
 
 点击唯一的[Oasis 测试网水龙头](https://faucet.testnet.oasis.dev/)，这次选择“Sapphire”。提交表格。
 ​
 #### 将 Sapphire 测试网添加到 Truffle
-​
+
 你提交的另一个不同之处在于：
 ​
 ```diff
@@ -121,17 +120,16 @@ index 7af2f42..0cd9d36 100644
 ```
 ​
 #### 移植到 Sapphire
-​
+
 这就是事情开始变得有趣的地方。我们将用两行代码为这个入门项目添加机密性。
-​​​
+
 你需要获取 Sapphire 兼容性库 ([@oasisprotocol/sapphire-paratime](https://www.npmjs.com/package/@oasisprotocol/sapphire-paratime))，因此通过发出
 
 ```
 pnpm add @oasisprotocol/sapphire-paratime # npm also works
 ```
 
-到目前为止，一切都很好。
-现在通过将此行添加到 `truffle-config.js` 的顶部来导入它：
+到目前为止，一切都很好。现在通过将此行添加到 `truffle-config.js` 的顶部来导入它：
 
 ```
 const sapphire = require('@oasisprotocol/sapphire-paratime');
@@ -157,7 +155,7 @@ index 0cd9d36..7db7cf8 100644
 这个 `wrap` 函数可以使用你拥有的任何类型的提供者或签名者，并将其转换为与 Sapphire 和机密性一起使用的提供者或签名者。
 
 在大多数情况下，封装你的签名者/提供者是让你的 dapp 在 Sapphire 上运行的最少需要做的事情，但这并不一个完整，因为未经修改的合约可能会通过正常操作泄漏状态。
-​
+
 接下来是我们一直期待的事情：
 
 ```
@@ -186,7 +184,7 @@ The contract now has balance: 42.
 移植现有的 Eth 应用程序很酷，并且已经可以提供诸如保护 MEV 之类的好处。
 
 然而，从头开始考虑机密性可以解锁一些真正新颖的 dapp 并提供 [更高级别的安全性](https://docs.oasis.dev/general/developer-resources/sapphire-paratime/writing-dapps-on-sapphire#writing-secure-dapps)。
-​
+
 一个利用机密性的简单但有用的 dapp 是 [dead person's switch](https://en.wikipedia.org/wiki/Dead_man's_switch)，如果操作员未能在较长时间内启动，它揭示了一个秘密（假设是数据宝库的加密密钥）。
 
 一起让它成为现实！
@@ -253,19 +251,19 @@ index 414e974..49c95f9 100644
 ### 运行合约
 ​
 首先，让我们看看实际发生了什么。
-​​​
+
 在文件的顶部，有我们的 import：`@oasisprotocol/sapphire-paratime`。
 
 与 Truffle 不同，我们必须“手动”包装签名者，因为 Hardhat 配置只需要一个私钥。 我们在 `main` 的顶部执行此操作。
 
 部署合约后，我们可以创建一个 secret，检查它是否不可读，稍等片刻，然后检查它是否变得可读。那就太酷了！
-​​​
+
 好吧，让我们“运行”来实现它
 ​
 ```
 PRIVATE_KEY="0x..." pnpm hardhat run scripts/run-vigil.ts --network sapphire
 ```
-​
+
 如果你看到类似下面的东西，你就知道你已经走在部署机密 dapps到 Sapphire的正确道路上了。
 ​
 ```
