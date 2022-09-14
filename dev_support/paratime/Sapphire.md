@@ -13,7 +13,7 @@ Sapphire ParaTime 是官方保密 EVM 兼容 ParaTime，提供具有 EVM 兼容�
 
 ## Web3 网关
 
-要开始构建我们的 Sapphire ParaTime，您可以使用我们的公共 Web3 网关，它与以太坊的 Web3 网关完全兼容。****
+要开始构建我们的 Sapphire ParaTime，您可以使用我们的公共 Web3 网关，它与以太坊的 Web3 网关完全兼容。
 
 ### ****测试网****
 
@@ -26,6 +26,5 @@ Sapphire ParaTime 是官方保密 EVM 兼容 ParaTime，提供具有 EVM 兼容�
 
 ## 另见
 
-<DocCard item={ findSidebarItem(‘manage-tokens/how-to-transfer-rose-into-evm-paratime’) } />
-
-[为 Sapphire 创建 dapp](Sapphire%20ParaTime%2060bb545d0a5c4c9c86eb3b9185d0974e/%E4%B8%BA%20Sapphire%20%E5%88%9B%E5%BB%BA%20dapp%20bf9f7f4175204afaa415c69544ea0e7c.md)
+[为 Sapphire 创建 dapp](/dev_support/paratime/Sapphire/%E4%B8%BASapphire%E5%88%9B%E5%BB%BAdapp.md)
+[Sapphire教程](/dev_support/paratime/Sapphire/Sapphire%E6%95%99%E7%A8%8B.md)
