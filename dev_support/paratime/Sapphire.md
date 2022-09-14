@@ -27,4 +27,7 @@ Sapphire ParaTime 是官方保密 EVM 兼容 ParaTime，提供具有 EVM 兼容�
 ## 另见
 
 [为 Sapphire 创建 dapp](/dev_support/paratime/Sapphire/%E4%B8%BASapphire%E5%88%9B%E5%BB%BAdapp.md)
+
 [Sapphire教程](/dev_support/paratime/Sapphire/Sapphire%E6%95%99%E7%A8%8B.md)
+
+Last updated on Sep 13, 2022
