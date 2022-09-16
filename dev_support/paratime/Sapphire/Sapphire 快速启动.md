@@ -1,6 +1,7 @@
-# Sapphire教程
+# Sapphire 快速启动
 
 ## 总览
+点击观看视频教程 [How to Use Sapphire TestNet: Creating a Confidential dApp on the Sapphire TestNet](https://www.youtube.com/watch?v=ePp1fFSmKgI).
 
 在本教程中，你将在 10 分钟内移植一个 Eth 项目，然后继续部署一个需要机密性支持的独特 dapp。
 
@@ -21,6 +22,9 @@ git init
 git add :/ && git commit -m "Initial commit"
 pnpm init && pnpm add -D @truffle/hdwallet-provider # npm or yarn also works
 ```
+
+> 本教程使用 [pnpm](https://pnpm.io/installation)，一个高效的 Node 包管理器。 您可以通过将 `pnpm` 替换为其中任何一个来轻松使用 `npm` 或 `yarn`。
+
 ### 部署到 Emerald (非机密 EVM)
 #### 获取 eROSE
 
@@ -42,23 +46,24 @@ index 68d534c..15c671d 100644
 @@ -22,7 +22,7 @@
  // const mnemonic = process.env["MNEMONIC"];
  // const infuraProjectId = process.env["INFURA_PROJECT_ID"];
-​
+
 -// const HDWalletProvider = require('@truffle/hdwallet-provider');
 +const HDWalletProvider = require('@truffle/hdwallet-provider');
-​
+
  module.exports = {
    /**
 @@ -53,6 +53,14 @@ module.exports = {
      //   network_id: 5,       // Goerli's id
      //   chain_id: 5
      // }
++    // This is Testnet! If you want Mainnet, add a new network config item.
 +    emerald: {
 +      provider: () =>
 +        new HDWalletProvider([process.env.PRIVATE_KEY], "https://testnet.emerald.oasis.dev"),
 +      network_id: 0xa515,
 +    },
    },
-​
+
    // Set default mocha options here, use special reporters etc.
 ```
 
@@ -67,6 +72,50 @@ index 68d534c..15c671d 100644
 你需要一个脚本来在合约上运行一些方法。打开你最喜欢的编辑器并插入以下字段：
 
 ```javascript
+const keccak256 = require("web3").utils.keccak256;
+
+const MetaCoin = artifacts.require("MetaCoin");
+
+async function exerciseContract() {
+  const mc = await MetaCoin.deployed();
+
+  const tx = await mc.sendCoin(mc.address, 42);
+  console.log(`\nSent some coins in ${tx.tx}.`);
+  const t = tx.logs[0].args;
+  console.log(`A Transfer(${t[0]}, ${t[0]}, ${t[2].toNumber()}) was emitted.`);
+
+  const storageSlot = await new Promise((resolve, reject) => {
+    const getStoragePayload = {
+      method: "eth_getStorageAt",
+      params: [
+        mc.address,
+        keccak256(
+          "0x" + "00".repeat(12) + mc.address.slice(2) + "00".repeat(32)
+        ),
+        "latest",
+      ],
+      jsonrpc: "2.0",
+      id: "test",
+    };
+    mc.contract.currentProvider.send(getStoragePayload, (err, res) => {
+      if (err) reject(err);
+      else resolve(res.result);
+    });
+  });
+  console.log(`The balance storage slot contains ${storageSlot}.`);
+
+  const balance = await mc.getBalance(mc.address);
+  console.log(`The contract now has balance: ${balance.toNumber()}.`);
+}
+
+module.exports = async function (callback) {
+  try {
+    await exerciseContract();
+  } catch (e) {
+    console.error(e);
+  }
+  callback();
+};
 ​
 ```
 把它保存到 `scripts/exercise-contract.js`。我们稍后会用到它。
@@ -110,13 +159,14 @@ index 7af2f42..0cd9d36 100644
          new HDWalletProvider([process.env.PRIVATE_KEY], "https://testnet.emerald.oasis.dev"),
        network_id: 0xa515,
      },
++    // This is Testnet! If you want Mainnet, add a new network config item.
 +    sapphire: {
 +      provider: () =>
 +        new HDWalletProvider([process.env.PRIVATE_KEY], "https://testnet.sapphire.oasis.dev"),
 +      network_id: 0x5aff,
 +    },
    },
-​
+
    // Set default mocha options here, use special reporters etc.
 ```
 ​
@@ -192,8 +242,9 @@ The contract now has balance: 42.
 ​
 ### 初始化一个 hardhat 项目
 
-1.创建并进入一个新的目录
-2.​ 输入 `npx hardhat`创建一个 TypeScript 项目，安装`@nomicfoundation/hardhat-toolbox`及其依赖。
+1.创建并进入一个新的目录  
+2.​ 输入 `npx hardhat`创建一个 TypeScript 项目  
+3.安装`@nomicfoundation/hardhat-toolbox`及其依赖
 ​
 ### 添加 Sapphire 测试网到 Hardhat
 
@@ -286,3 +337,6 @@ The secret ingredient is brussels sprouts
 想获得关于在 Sapphire上编写 dapps 的细节，也可以从 [docs](https://docs.oasis.dev/general/developer-resources/sapphire-paratime/writing-dapps-on-sapphire) 中获得。
 
 祝你未来涉足保密领域好运！
+
+本文翻译自[Quickstart](https://docs.oasis.io/dapp/sapphire/quickstart)
+Last updated on Sep 15, 2022
