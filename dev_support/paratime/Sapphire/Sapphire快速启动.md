@@ -3,6 +3,8 @@
 ## 总览
 点击观看视频教程 [How to Use Sapphire TestNet: Creating a Confidential dApp on the Sapphire TestNet](https://www.youtube.com/watch?v=ePp1fFSmKgI).
 
+<iframe style={{margin: 'auto', display:'block'}} width="560" height="315" src="https://www.youtube-nocookie.com/embed/ePp1fFSmKgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 在本教程中，你将在 10 分钟内移植一个 Eth 项目，然后继续部署一个需要机密性支持的独特 dapp。
 
 在本教程结束时，你将可以轻松设置你的 Eth 开发环境来使用 Sapphire，并知道如何以及何时使用机密性。
