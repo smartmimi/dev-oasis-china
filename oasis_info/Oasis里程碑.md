@@ -3,6 +3,7 @@
 记录Oasis发展历程的大事件
 
 ## 2022
+- 2022/09/30 [Sapphire 非技术性黑客松项目结束，并决出3位获奖项目](https://t.me/oasisprotocolfoundation/784)
 - 2022/09/14 [Sapphire 黑客松开始](https://oasisprotocol.org/hackathon) - Sapphire 是第一个也是唯一一个机密的 EVM 兼容运行时。Sapphire 为 Solidity 开发人员提供了一个熟悉的开发环境，同时还具有 Oasis 隐私保护技术的额外好处。
 - 2022/07/28 [Oasis Labs 与 Meta 建立合作,构建隐私保护平台助力 AI 模型公平性发展](https://medium.com/@OasisNetworkCN/oasis-labs-%E4%B8%8E-meta-%E5%BB%BA%E7%AB%8B%E5%90%88%E4%BD%9C-%E6%9E%84%E5%BB%BA%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E5%B9%B3%E5%8F%B0%E5%8A%A9%E5%8A%9B-ai-%E6%A8%A1%E5%9E%8B%E5%85%AC%E5%B9%B3%E6%80%A7%E5%8F%91%E5%B1%95-a27ff7e18594) - Oasis Labs 宣布与著名科技公司 Meta 建立合作伙伴关系，Oasis Labs 将推出一个平台用于评估 Meta 产品的公平性，同时保护用户隐私，实现包容性和公平性的首创举措。
 - 2022/07/21 [Sapphire现已上线测试网](https://medium.com/@OasisNetworkCN/sapphire%E7%8E%B0%E5%B7%B2%E4%B8%8A%E7%BA%BF%E6%B5%8B%E8%AF%95%E7%BD%91-%E9%A6%96%E4%B8%AAevm%E5%85%BC%E5%AE%B9%E7%9A%84%E9%9A%90%E7%A7%81paratime-ce06c260143d) - 首个EVM兼容的隐私ParaTime
