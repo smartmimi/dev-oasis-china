@@ -95,7 +95,7 @@ Emerald 为 EVM 架构，私钥、钱包地址的算法，均与ETH、BSC 链相
 
 ## 五、质押
 
-详情请查阅 [质押](/dev-oasis-china/general/质押.md)
+详情请查阅 [质押](/general/质押.md)
 
 ## 六、bitpie 钱包转移到官方钱包
 
