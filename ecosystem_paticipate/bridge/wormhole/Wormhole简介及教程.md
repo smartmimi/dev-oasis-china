@@ -6,7 +6,7 @@
 
 [Wormhole跨链操作](https://medium.com/@OasisNetworkCN/yuzuswap%E6%93%8D%E4%BD%9C%E6%95%99%E7%A8%8B-oasis%E7%94%9F%E6%80%81%E9%A6%96%E4%B8%AAdex%E4%B8%8A%E7%BA%BF-%E8%B5%A2%E5%8F%96%E4%B8%B0%E5%AF%8C%E5%A5%96%E5%8A%B1-9cb5fbbfe112) -- 摘自Oasis官方Medium
 
-跨链代币及合约如下（仅列举Emerald上的合约地址，源链合约地址及支持的交易所请查看[Wormhole文档](https://docs.wormholenetwork.com/wormhole/overview-liquid-markets)
+跨链代币及合约如下（仅列举Emerald上的合约地址，源链合约地址及支持的交易所请查看[Wormhole文档](https://docs.wormhole.com/wormhole/overview-liquid-markets#target-chain-oasis)
 
 > 请万分注意，需要桥认可的代币才可以跨链后在对端使用。如BSC链上的USDT，需要经过Pancake转换成USDT(wormhole)代币后才可以跨链。
 
