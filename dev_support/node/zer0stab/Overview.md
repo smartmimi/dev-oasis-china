@@ -10,7 +10,7 @@
 > **提示**  
 在主网上运营一个ParaTime节点需要节点运营商的参与，他们在活跃的验证器集合中拥有验证器节点。ParaTimes有其特有的奖励制度，参与要求和结构。作为节点运营商可以参与任何数量 ParaTimes 节点运营工作。
 
-如有任何关于运行节点的问题，可以通过[Discord](https://discord.gg/EKTAUGnXpM)联系我们。
+如有任何关于运行节点的问题，可以通过[Discord](https://discord.gg/s9exHpwpQ6)联系我们。
 
 ## 设置你的节点
 
