@@ -1,5 +1,3 @@
-# Cipher Paratime
-
 Cipher ParaTime 是用于执行 Wasm 智能合约的机密 ParaTime。
 
 作为 Oasis 协议基金会官方支持的 ParaTime，Cipher 允许：
