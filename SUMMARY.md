@@ -16,6 +16,7 @@
   - [钱包](./general/wallet/wallet.md)
   - [Oasis KYC教程](./general/oasis_kyc/oasis_kyc.md)
   - [区块链浏览器](./general/browser/browser.md)
+  - [常见问题](./general/questions/question.md)
 
 ### 技术支持
 
