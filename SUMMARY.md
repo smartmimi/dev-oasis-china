@@ -63,6 +63,12 @@
     - [为 Sapphire 创建 dapp](./dev_support/paratime/Sapphire/为Sapphire创建dapp.md)
     - [Sapphire 快速启动](./dev_support/paratime/Sapphire/Sapphire快速启动.md)
     - [预编译](./dev_support/paratime/Sapphire/预编译.md)
+  - [Cipher](./dev_support/paratime/cipher.md)
+    - [先决条件](./dev_support/paratime/cipher/先决条件.md)
+    - [HelloWorld](./dev_support/paratime/cipher/helloworld.md)
+    - [机密 HelloWorld](./dev_support/paratime/cipher/机密helloworld.md)
+    - [Rust API](https://api.docs.oasis.io/oasis-sdk/oasis_contract_sdk/)
+    - [Go API](https://pkg.go.dev/github.com/oasisprotocol/oasis-sdk/client-sdk/go/client)
 - [Gas设置](./dev_support/Gas设置/Gas设置.md)
 - [Oasis与Emerald之间的ROSE划转](./dev_support/Oasis与Emerald之间的ROSE划转/Oasis与Emerald之间的ROSE划转.md)
 
