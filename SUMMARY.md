@@ -41,7 +41,7 @@
     - [08修改佣金率](./dev_support/node/zer0stab/02部署节点/08修改佣金率.md)
     - [09治理](./dev_support/node/zer0stab/02部署节点/09治理.md)
     - [10哨兵节点结构](./dev_support/node/zer0stab/02部署节点/10哨兵节点结构.md)
-    - [11密钥管理器节点]（/dev_support/node/zer0stab/02部署节点/11密钥管理器节点.md)
+    - [11密钥管理器节点](/dev_support/node/zer0stab/02部署节点/11密钥管理器节点.md)
   - 高级设置
     - [01使用状态同步来实现快速引导](./dev_support/node/zer0stab/03高级设置/01使用状态同步来实现快速引导.md)
     - [02从一个节点复制状态到另一个节点](./dev_support/node/zer0stab/03高级设置/02从一个节点复制状态到另一个节点.md)
