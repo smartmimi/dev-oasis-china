@@ -2,8 +2,6 @@
 
 Oasis 节点是从[Oasis Core](https://github.com/oasisprotocol/oasis-core)库`go/`路径创建的源码文件
 
-It contains both the logic for running an Oasis node and also provides a CLI for handling registry, staking and other operations.
-
 它既包含运行 Oasis 节点的逻辑，也提供了一个 CLI 来处理注册、质押和其他操作。
 
 > 警告  Oasis 节点目前仅在 x86_64 Linux 系统上受支持。
