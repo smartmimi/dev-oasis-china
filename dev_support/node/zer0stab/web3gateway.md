@@ -1,4 +1,6 @@
-# 用于 EVM ParaTime 的 Oasis Web3 网关
+# Web3 网关
+
+用于 EVM ParaTime 的 Oasis Web3 网关
 
 本指南将引导您完成为 EVM 兼容的 ParaTimes（例如Emerald和Sapphire ）设置 Oasis Web3 网关所需的步骤。
 
