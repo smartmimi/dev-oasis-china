@@ -358,3 +358,5 @@ debug: cause: Operation not permitted (os error 1)
 ```
 
 确保你的系统的/dev没有用noexec mount选项挂载。
+
+> update 2022/10/25 - moi
