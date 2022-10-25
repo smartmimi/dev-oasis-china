@@ -54,6 +54,7 @@
     - [04更新节点证书](./dev_support/node/zer0stab/04节点维护/04更新节点证书.md)
     - [05关闭节点](./dev_support/node/zer0stab/04节点维护/05关闭节点.md)
     - [节点故障排除](./dev_support/node/zer0stab/节点故障排除.md)
+  - [Web3 网关](./dev_support/node/zer0stab/web3gateway.md)
 - 开发者资源
   - [Emerald](./dev_support/paratime/Emerald.md)
     - [在Emerald上编写dapp](./dev_support/paratime/Emerald/在Emerald上编写dapp.md)
