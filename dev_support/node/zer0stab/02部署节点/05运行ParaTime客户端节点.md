@@ -170,3 +170,5 @@ oasis-node --config /node/etc/config.yml
 oasis-node control status -a unix:/node/data/internal.sock
 
 ```
+
+> update 2022/10/25 - moi

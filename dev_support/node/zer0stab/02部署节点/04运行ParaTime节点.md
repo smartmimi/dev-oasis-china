@@ -316,3 +316,5 @@ oasis-node control status -a unix:/node/data/internal.sock
 ### 质押需求
 
 仔细检查您的节点实体是否满足 ParaTime 节点的质押要求。有关详细信息，请参阅[权益要求](https://docs.oasis.dev/general/run-a-node/set-up-your-node/run-a-paratime-node#stake-requirements)部分。
+
+> update 2022/10/25 - moi
