@@ -34,12 +34,9 @@ Oasis Network是于2020年11月19日上线的隐私公链。采用共识层与�
 
 ### 钱包地址
 
-- Oasis插件钱包（Chrome浏览器） - ROSE管理、质押、主网与Emerald互转ROSE
-   [https://chrome.google.com/webstore/detail/oasis-wallet/ppdadbejkmjnefldpcdjhnkpbjkikoip?hl=zh-CN](https://chrome.google.com/webstore/detail/oasis-wallet/ppdadbejkmjnefldpcdjhnkpbjkikoip?hl=zh-CN)
-- Oasisweb钱包 - ROSE管理、质押
-   [https://wallet.oasisprotocol.org/](https://wallet.oasisprotocol.org/)
-- Metamask插件钱包（Chrome浏览器） - 使用Emerald网络里的ROSE，参与Emerald上的生态项目
-   [https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=zh-CN](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=zh-CN)
+- [Oasis插件钱包（Chrome浏览器）](https://chrome.google.com/webstore/detail/oasis-wallet/ppdadbejkmjnefldpcdjhnkpbjkikoip?hl=zh-CN) - ROSE管理、质押、主网与Emerald互转ROSE
+- [Oasisweb钱包](https://wallet.oasisprotocol.org/) - ROSE管理、质押
+- [Metamask插件钱包（Chrome浏览器）](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=zh-CN) - 使用Emerald网络里的ROSE，参与Emerald上的生态项目
 - App
    - [Bitpie钱包](https://bitpie.com/) - ROSE管理、质押
    - MetaMask App - 同Metamask插件钱包
