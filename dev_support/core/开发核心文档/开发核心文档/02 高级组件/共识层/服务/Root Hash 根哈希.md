@@ -1,0 +1,41 @@
+# Root Hash 根哈希
+
+`Root Hash` 服务负责运行时提交处理和最小运行时状态保持。
+
+The service interface definition lives in `[go/roothash/api](https://github.com/oasisprotocol/oasis-core/tree/master/go/roothash/api/api.go)`. It defines the supported queries and transactions. For more information you can also check out the [consensus service API documentation](https://pkg.go.dev/github.com/oasisprotocol/oasis-core/go/roothash/api?tab=doc).
+
+服务接口定义位于 `go/roothash/api` 中。 它定义了支持的查询和事务。 有关更多信息，您还可以查看共识服务 API 文档。
+
+## 方法
+
+### 执行提交
+
+执行者提交方法允许执行者节点提交已执行计算的提交。 可以使用 NewExecutorCommitTx 生成新的执行者提交事务。
+
+方法名**:**
+
+```
+roothash.ExecutorCommit
+
+```
+
+主体**:**
+
+```
+type ExecutorCommit struct {
+    ID      common.Namespace                `json:"id"`
+    Commits []commitment.ExecutorCommitment `json:"commits"`
+}
+
+```
+
+字段**:**
+
+- `id` 指定此提交所针对的运行时的 [运行时标识符](https://docs.oasis.io/core/runtime/identifiers)。
+- `commits` 是 [执行者承诺](https://pkg.go.dev/github.com/oasisprotocol/oasis-core/go/roothash/api/commitment?tab=doc#ExecutorCommitment)。
+
+## 事件
+
+## 共识参数
+
+- `max_runtime_messages` (uint32) 指定运行时每轮可以发出的消息数量的全局限制。 默认值 0 会禁用运行时消息。
