@@ -56,11 +56,11 @@
     - [节点故障排除](./dev_support/node/zer0stab/节点故障排除.md)
   - [Web3 网关](./dev_support/node/zer0stab/web3gateway.md)
 - [开发核心](./dev_support/core/开发核心文档/开发核心文档.md)
-  - [Oasis 核心开发者文档](./dev_support/core/开发核心文档/开发核心文档/00 Oasis 核心开发者文档.md)
-  - [01 开发设置](./dev_support/core/开发核心文档/开发核心文档/01 开发设置.md)
-  - [02 高级组件](dev_support/core/开发核心文档/开发核心文档/02 高级组件.md)
-  - [03 通用功能](dev_support/core/开发核心文档/开发核心文档/03 通用功能.md
-  - [04 流程](dev_support/core/开发核心文档/开发核心文档/04 流程.md)
+  - [Oasis 核心开发者文档](./dev_support/core/开发核心文档/开发核心文档/00Oasis核心开发者文档.md)
+  - [01 开发设置](./dev_support/core/开发核心文档/开发核心文档/01开发设置.md)
+  - [02 高级组件](./dev_support/core/开发核心文档/开发核心文档/02高级组件.md)
+  - [03 通用功能](./dev_support/core/开发核心文档/开发核心文档/03通用功能.md)
+  - [04 流程](dev_support/core/开发核心文档/开发核心文档/04流程.md)
 - 开发者资源
   - [Emerald](./dev_support/paratime/Emerald.md)
     - [在Emerald上编写dapp](./dev_support/paratime/Emerald/在Emerald上编写dapp.md)
