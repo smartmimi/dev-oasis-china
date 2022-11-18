@@ -55,8 +55,8 @@
     - [05关闭节点](./dev_support/node/zer0stab/04节点维护/05关闭节点.md)
     - [节点故障排除](./dev_support/node/zer0stab/节点故障排除.md)
   - [Web3 网关](./dev_support/node/zer0stab/web3gateway.md)
-- [开发核心](./dev_support/core/开发核心文档/开发核心文档.md)
-  - [00Oasis核心开发者文档](./dev_support/core/开发核心文档/开发核心文档/00Oasis核心开发者文档.md)
+- 开发核心
+  - [总览](./dev_support/core/开发核心文档/开发核心文档/总览.md)
   - [01开发设置](./dev_support/core/开发核心文档/开发核心文档/01开发设置.md)
     - 配置开发环境和构建
       - [前提](./dev_support/core/开发核心文档/开发核心文档/01开发设置/配置开发环境和构建/前提.md)
