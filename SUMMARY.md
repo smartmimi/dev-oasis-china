@@ -69,7 +69,7 @@
   - 02高级组件
     - [共识层](./dev_support/core/开发核心文档/开发核心文档/02高级组件/共识层.md)
       - [交易](./dev_support/core/开发核心文档/开发核心文档/02高级组件/共识层/交易.md)
-      - [服务](./dev_support/core/开发核心文档/开发核心文档/02高级组件/共识层/服务.md)
+      - 服务
         - [密钥管理器](./dev_support/core/开发核心文档/开发核心文档/02高级组件/共识层/服务/密钥管理器.md)
         - [委员会日程安排](./dev_support/core/开发核心文档/开发核心文档/02高级组件/共识层/服务/委员会日程安排.md)
         - [治理](./dev_support/core/开发核心文档/开发核心文档/02高级组件/共识层/服务/治理.md)
@@ -84,7 +84,7 @@
       - [运行时主机协议](./dev_support/core/开发核心文档/开发核心文档/02高级组件/运行时/运行时主机协议.md)
       - [运行时ID](./dev_support/core/开发核心文档/开发核心文档/02高级组件/运行时/运行时ID.md)
       - [运行时消息](./dev_support/core/开发核心文档/开发核心文档/02高级组件/运行时/运行时消息.md)
-    - [Oasis节点](./dev_support/core/开发核心文档/开发核心文档/02高级组件/Oasis节点.md)
+    - Oasis节点
       - [指标](./dev_support/core/开发核心文档/开发核心文档/02高级组件/Oasis节点/指标.md)
       - [oasis-nodeCLI](./dev_support/core/开发核心文档/开发核心文档/02高级组件/Oasis节点/oasis-nodeCLI.md)
       - [RPC](./dev_support/core/开发核心文档/开发核心文档/02高级组件/Oasis节点/RPC.md)
