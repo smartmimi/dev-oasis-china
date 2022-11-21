@@ -1,6 +1,6 @@
 # 运行时 ID
 
-运行时的标识符由`[common.Namespace](https://pkg.go.dev/github.com/oasisprotocol/oasis-core/go/common?tab=doc#Namespace)`类型表示。
+运行时的标识符由[common.Namespace](https://pkg.go.dev/github.com/oasisprotocol/oasis-core/go/common?tab=doc#Namespace)类型表示。
 
 前64位保留用于指定表达运行时各种属性的标志，最后192位作为运行时的标识符。
 
