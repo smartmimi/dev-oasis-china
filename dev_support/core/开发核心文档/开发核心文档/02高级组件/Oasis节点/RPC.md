@@ -57,4 +57,11 @@ conn, err := oasisGrpc.Dial("unix:/path/to/datadir/internal.sock")
 
 有关公开服务的更多详细信息，请参阅相应的文档部分。 Go API 还为所有服务提供了 gRPC 客户端实现，这些服务可以在通过内部套接字建立 gRPC 连接后使用（多个客户端可以共享同一个 gRPC 连接）。 例如，在共识服务使用我们在上一个示例中建立的连接的情况下：
 
-`import (    // ...    consensus "github.com/oasisprotocol/oasis-core/go/consensus/api")// ...cc := consensus.NewConsensusClient(conn)err := cc.SubmitTx(ctx, &tx)`
+```
+import (
+    // ...    consensus "github.com/oasisprotocol/oasis-core/go/consensus/api"
+    )
+    // ...
+cc := consensus.NewConsensusClient(conn)
+err := cc.SubmitTx(ctx, &tx)
+```
