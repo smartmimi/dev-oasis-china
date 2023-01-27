@@ -3,7 +3,6 @@
 记录Oasis发展历程的大事件
 
 ## 2022
-- 2022/12/16 期待已久的机密 Sapphire ParaTime 在主网上部署
 - 2022/11/01 [机密Sapphire黑客松活动结束](https://medium.com/oasis-protocol-project/keep-it-confidential-sapphire-hackathon-winners-b459fa60bedd) 恭喜以下进入前三名的团队！ARX 协议、Momentum、Onchain-ID
 - 2022/10/26 [Oasis Labs宣布与全球数据、分析和技术公司Equifax建立合作伙伴关系](https://twitter.com/OasisNetwork_CN/status/1585276692779528193) 本次合作旨在共同为Web3经济提供链上KYC解决方案,借来自Equifax的一流数据，Oasis 将彻底改变KYC和身份管理！
 - 2022/09/30 [Sapphire 非技术性黑客松项目结束，并决出3位获奖项目](https://t.me/oasisprotocolfoundation/784)
